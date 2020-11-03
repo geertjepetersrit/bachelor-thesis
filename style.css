@@ -1,0 +1,27 @@
+.brand{
+  background: #cbb09c !important;
+}
+
+.brand-text{
+  color: #cbb09c !important;
+}
+
+form{
+  max-width: 460px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.icon{
+  width: 50px;
+  height: auto;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+.footer {
+  padding: 20px; /* Some padding */
+  text-align: center; /* Center text*/
+  background: #ddd; /* Grey background */
+}
