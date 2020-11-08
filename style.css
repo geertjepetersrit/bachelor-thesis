@@ -1,15 +1,17 @@
-.brand{
-  background: #cbb09c !important;
+body{
+  background: #e6f2ff !important;
 }
 
 .brand-text{
-  color: #cbb09c !important;
+  color: #ed1c24 !important; /* M.A.X. red */
 }
 
-form{
-  max-width: 460px;
-  margin: 20px auto;
-  padding: 20px;
+.h4, .h5-text{
+  color: #3f48cc !important; /* M.A.X. blue */
+}
+
+.h5 {
+  color: #000000;
 }
 
 .icon{
@@ -20,8 +22,63 @@ form{
   left: 0px;
 }
 
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.hotline{
+  margin: 30px;
+  width: 100%;
+
+}
+
+.cell{
+  background-color: #ffffff;
+  width:(100/4)%;
+}
+
+.cell-top-left{
+  background-color: #ffffff;
+  width:(100/4)%;
+  border-top-left-radius: 20px;
+}
+
+.cell-top-right{
+  background-color: #ffffff;
+  width:(100/4)%;
+  border-top-right-radius: 20px;
+}
+
+.cell-bottom-left{
+  background-color: #ffffff;
+  width:(100/4)%;
+  border-bottom-left-radius: 20px;
+}
+
+.cell-bottom-right{
+  background-color: #ffffff;
+  width:(100/4)%;
+  border-bottom-right-radius: 20px;
+}
+
 .footer {
   padding: 20px; /* Some padding */
   text-align: center; /* Center text*/
-  background: #ddd; /* Grey background */
+  background: #ffffff;
 }
