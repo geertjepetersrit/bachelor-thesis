@@ -10,6 +10,12 @@
 
 <!-- Columns with info -->
 <div class="container">
+  <h6 class="center h6">
+    <strong>
+      DISCLAIMER: Please note that the purpose of M.A.X. is assisting people to seek help, instead of providing a cure.
+      In other words, M.A.X. is simply an additional tool of mental health care and not a replacement. Use at your own risk.
+    </strong>
+  </h6>
       <div class="row">
           <div class="column">
               <h5 class = "h5">Chatbots</h5> <!-- Col 1 -->
@@ -18,16 +24,13 @@
                    It makes use of a combination of rule-based and machine learning techniques to provide the appropriate hotlines
                    suited for your current mental health status. It does so by recognizing key words in the conversation.
                    M.A.X. is made with Watson Assistant Lite, which is a product of IBM.
-                   <strong>Please note that the purpose of M.A.X. is assisting people to seek help, instead of providing a cure.
-                   In other words, M.A.X. is simply an additional tool of mental health care and not a replacement. Use at your own risk. </strong>
                 </p>
           </div>
           <div class="column"> <!-- Col 2 -->
               <h5 class = "h5">Mental health</h5>
                 <p>
                    Your mental health is at least as important as your physical health. Therefore, you should take good care of it.
-                   Sadly, mental health disorders can happen to anyone. For example, people can struggle with major depression disorder,
-                   generalized anxiety disorder, post-traumatic stress disorder or schizophrenia. If the step to talk to a human therapist
+                   Sadly, mental health disorders can happen to anyone. If the step to talk to a human therapist
                    is too high, you can always talk to M.A.X. The first step is always the hardest, M.A.X. focuses on making this step easier.
                 </p>
           </div>

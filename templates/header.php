@@ -1,5 +1,9 @@
 <head>
   <meta charset="utf-8">
+  <meta name="description" content="Mental health chatbot that provides hotlines">
+  <meta name="keywords" content="chatbot, mental health, hotlines">
+  <meta name="author" content="Geertje Peters Rit">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Chatbot M.A.X.</title>
   <!-- Compiled and minified CSS -->
   <!--
