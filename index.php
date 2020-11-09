@@ -3,7 +3,7 @@
 
   <?php include "templates/header.php"; ?>
 
-  <h3 class="center">The mental health chatbot that provides hotlines.</h3>
+  <h3 class="center h3">The mental health chatbot that provides hotlines.</h3>
 
   <h4 class = "center h4">Have a chat.</h4>
   <h5 class = "center h5-text">Just click on the icon in the bottom right corner.</h5>
@@ -48,7 +48,7 @@
 <!-- Table with Dutch hotlines. The white rows are known to M.A.X. -->
 <div class="container">
     <table class="hotline">
-      <caption>Table with Dutch hotlines. The white rows are known to M.A.X.</caption>
+      <caption>The white spots are known to M.A.X.</caption>
       <tr> <!-- Row 1 -->
         <th>Hotline</th>
         <th>Description</th>
@@ -57,43 +57,43 @@
       </tr>
       <tr> <!-- Row 1 -->
         <td class = "cell-top-left">113 zelfmoordpreventie</td>
-        <td class = "cell">For people thinking about suicide or people that know someone who thinks about it</td>
+        <td class = "cell">For people thinking about suicide or people that know someone who thinks about it.</td>
         <td class = "cell">(0900-0)113, 7 days per week, 24 hours</td>
         <td class = "cell-top-right"><a href = "https://www.113.nl/">https://www.113.nl/</a></td>
       </tr>
       <tr> <!-- Row 2 -->
         <td class = "cell">ADF Stichting</td>
-        <td class = "cell">Help by anxiety, compulsory or phobia issues</td>
+        <td class = "cell">Help by anxiety, compulsory or phobia issues.</td>
         <td class = "cell">0343-753 009, 7 days per week, from 9:00 until 13:30</td>
         <td class = "cell"><a href = "https://adfstichting.nl/">https://adfstichting.nl/</a></td>
       </tr>
       <tr> <!-- Row 3 -->
         <td class = "cell">ARQ IVP</td>
-        <td class = "cell">For psychological help by a traumatic event</td>
+        <td class = "cell">For psychological help by a traumatic event.</td>
         <td class = "cell">088-3305500, 7 days per week, from 8:30 until 21:30</td>
         <td class = "cell"><a href = "https://www.ivp.nl/ivp-accent/zorgprofessionals">https://www.ivp.nl/ivp-accent/zorgprofessionals</a></td>
       </tr>
       <tr> <!-- Row 4 -->
         <td class = "cell-bottom-left">Mind-Korrelatie</td>
-        <td class = "cell">Help by psychological or mental issues</td>
+        <td class = "cell">Help by psychological or mental issues.</td>
         <td class = "cell">0900-1450 or 06-13863803</td>
         <td class = "cell-bottom-right"><a href = "https://mindkorrelatie.nl/">https://mindkorrelatie.nl/</a></td>
       </tr>
       <tr> <!-- Row 5 -->
         <td>De Kindertelefoon (chat also available</td>
-        <td>For children to share everything that’s on their mind</td>
+        <td>For children to share everything that’s on their mind.</td>
         <td>0800 - 0432, 7 days per week, from 11:00 until 21:00</td>
         <td><a href = "https://www.kindertelefoon.nl/">https://www.kindertelefoon.nl/ </a></td>
       </tr>
       <tr> <!-- Row 6 -->
         <td>ABNO</td>
-        <td>Elderly that have questions about COVID-19 or just want to talk because they’re lonely</td>
+        <td>Elderly that have questions about COVID-19 or just want to talk because they’re lonely.</td>
         <td>0348 - 46 66 66</td>
         <td><a href = "https://www.anbo.nl/">https://www.anbo.nl/</a></td>
       </tr>
       <tr> <!-- Row 7 -->
         <td>De Luisterlijn (chat and email also available)</td>
-        <td>People who need a listening ear</td>
+        <td>People who need a listening ear.</td>
         <td>0900-0767, 7 days per week, 24 hours</td>
         <td><a href = "https://www.deluisterlijn.nl/onbeperktluisteren.html">https://www.deluisterlijn.nl/onbeperktluisteren.html</a></td>
       </tr>

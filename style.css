@@ -3,11 +3,11 @@ body{
 }
 
 .brand-text{
-  color: #ed1c24 !important; /* M.A.X. red */
+  color: #ed1c24 !important; /* M.A.X. red: #ed1c24 */
 }
 
 .h4, .h5-text{
-  color: #3f48cc !important; /* M.A.X. blue */
+  color: #3f48cc !important; /* M.A.X. blue: #3f48cc */
 }
 
 .h5 {
@@ -15,7 +15,7 @@ body{
 }
 
 .h6{
-  color: #ed1c24 !important; /* M.A.X. red */
+  color: #ed1c24 !important; /* M.A.X. red: #ed1c24 */
   padding: 20px;
 }
 
@@ -41,44 +41,65 @@ body{
 }
 
 /* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .column {
     width: 100%;
   }
+
+  .brand-text{
+    font-size: 4vw !important;
+  }
+
+  .h3{
+    font-size: 6vw;
+  }
+
+  .h4, .h5-text{
+    font-size: 5vw;
+  }
+
+  th {
+    display: none;
+  }
+
+  tr, td {
+   padding-right: 50px;
+   display: block;
+ }
 }
 
 .hotline{
   margin: 30px;
-  width: 100%;
+  width: 98%; /* To prevent horizontal scrolling on smaller screens */
 
 }
 
 .cell{
   background-color: #ffffff;
-  width:(100/4)%;
+  width:(98/4)%;
 }
 
 .cell-top-left{
   background-color: #ffffff;
-  width:(100/4)%;
+  width:(98/4)%;
   border-top-left-radius: 20px;
 }
 
 .cell-top-right{
   background-color: #ffffff;
-  width:(100/4)%;
+  width:(98/4)%;
   border-top-right-radius: 20px;
 }
 
 .cell-bottom-left{
   background-color: #ffffff;
-  width:(100/4)%;
+  width:(98/4)%;
   border-bottom-left-radius: 20px;
 }
 
 .cell-bottom-right{
   background-color: #ffffff;
-  width:(100/4)%;
+  width:(98/4)%;
   border-bottom-right-radius: 20px;
 }
 
