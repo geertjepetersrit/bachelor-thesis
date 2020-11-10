@@ -1,21 +1,30 @@
+/* MAX colours
+* RED: #ed1c24
+* BLUE: #3f48cc
+* GREEN: #22b14c
+* BLACK: #000000
+* WHITE: #ffffff
+*/
+
+
 body{
   background: #e6f2ff !important;
 }
 
 .brand-text{
-  color: #ed1c24 !important; /* M.A.X. red: #ed1c24 */
+  color: #0063cc !important;
 }
 
 .h4, .h5-text{
-  color: #3f48cc !important; /* M.A.X. blue: #3f48cc */
+  color: #0063cc;
 }
 
 .h5 {
-  color: #000000;
+  color: #0063cc;
 }
 
 .h6{
-  color: #ed1c24 !important; /* M.A.X. red: #ed1c24 */
+  color: #000000;
   padding: 20px;
 }
 
@@ -72,6 +81,12 @@ body{
   margin: 30px;
   width: 98%; /* To prevent horizontal scrolling on smaller screens */
 
+}
+
+.hotline-caption{
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 20px;
 }
 
 .cell{
