@@ -37,7 +37,7 @@
               <h5 class = "h5">Hotlines <i class="fas fa-phone"></i></h5>
                 <p>
                   There are Dutch hotlines that offer a listening ear for the people in need. They are accessible via a phone number or a website.
-                  Sometimes they also have the possibility to chat. M.A.X. will know a few Dutch hotlines and is able to suggest these to the person when needed.
+                  Sometimes they also have the possibility to chat. M.A.X. will know a few Dutch hotlines (white rows) and is able to suggest these to the person when needed.
                   By recognizing key words like "depressed", "anxious" or "stressed", M.A.X. aims to provide the appropriate hotline(s) suited for your current mental health status.
                 </p>
           </div>
@@ -47,7 +47,7 @@
 <!-- Table with Dutch hotlines. The white rows are known to M.A.X. -->
 <div class="container">
     <table class="hotline">
-      <caption class = "hotline-caption">The white rows are known to M.A.X.</caption>
+      <!--<caption class = "hotline-caption">The white rows are known to M.A.X.</caption>-->
         <tr> <!-- Row 1 -->
           <th>Hotline</th>
           <th>Description</th>
@@ -79,7 +79,7 @@
           <td class = "cell-bottom-right"><a href = "https://mindkorrelatie.nl/">https://mindkorrelatie.nl/</a></td>
         </tr>
         <tr> <!-- Row 5 -->
-          <td>De Kindertelefoon (chat also available</td>
+          <td>De Kindertelefoon (chat also available)</td>
           <td>For children to share everything that’s on their mind.</td>
           <td>0800 - 0432, 7 days per week, from 11:00 until 21:00</td>
           <td><a href = "https://www.kindertelefoon.nl/">https://www.kindertelefoon.nl/ </a></td>
@@ -94,7 +94,7 @@
           <td>De Luisterlijn (chat and email also available)</td>
           <td>People who need a listening ear.</td>
           <td>0900-0767, 7 days per week, 24 hours</td>
-          <td><a href = "https://www.deluisterlijn.nl/onbeperktluisteren.html">https://www.deluisterlijn.nl/onbeperktluisteren.html</a></td>
+          <td><a href = "https://www.deluisterlijn.nl/">https://www.deluisterlijn.nl/</a></td>
         </tr>
   </table>
 </div>
