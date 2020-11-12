@@ -51,7 +51,7 @@ THE SOFTWARE.
 </head>
 
   <body>
-    <nav class = "white z-depth-0">
+    <nav class="z-depth-0">
       <div class = "container">
         <img src="img/icon_transparent.png" class="icon" alt="Icon">
         <a href = "index.php" class = "brand-logo brand-text">Mental AI Access (M.A.X.)</a>
