@@ -4,7 +4,7 @@
 [![made-with-Heroku](https://img.shields.io/badge/Made%20with-Heroku-purple)](https://www.heroku.com/home)
 
 
-![ICON](img/icon_small.png)
+![ICON](img/avatar.png)
 
 ### Table of contents
 * [Introduction](#introduction)

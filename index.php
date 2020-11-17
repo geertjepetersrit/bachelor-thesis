@@ -9,10 +9,10 @@
     <h3 class="center h3">The mental health chatbot that provides hotlines.</h3>
 
     <!-- Disclaimer-->
-      <h6 class="center h6">
+      <p class="center p-disclaimer">
           <strong>DISCLAIMER: </strong>Please note that the purpose of M.A.X. is to assist people to seek help, instead of providing a cure.
           In other words, M.A.X. is simply an additional tool of mental health care and not a replacement. Use at your own risk.
-      </h6>
+      </p>
 
     <!-- We want to hide this element initially, because web chat isn't ready yet. -->
     <div class="wrapper">
@@ -79,7 +79,8 @@
             <div class="column"> <!-- Col 3 -->
                 <h5 class = "h5 center">Hotlines <i class="fas fa-phone"></i></h5>
                   <p>
-                    There are Dutch hotlines that offer a listening ear for the people in need. They are accessible via a phone number or a website.
+                    There are Dutch <a href="https://www.rijksoverheid.nl/documenten/brochures/2020/05/18/somber-of-gespannen-door-coronavirus-tips-en-hulplijnen">hotlines</a>
+                    that offer a listening ear for the people in need. They are accessible via a phone number or a website.
                     Sometimes they also have the possibility to chat. M.A.X. will know a few Dutch hotlines (blue rows) and is able to suggest these to the person when needed.
                     By recognizing key words like "depressed", "anxious" or "stressed", M.A.X. aims to provide the appropriate hotline(s) suited for your current mental health status.
                   </p>
@@ -92,7 +93,9 @@
 <div class="bottom">
   <div class="container">
       <table class="hotline">
-        <caption class = "hotline-caption">The blue rows are known to M.A.X.</caption>
+        <caption class = "hotline-caption">The blue rows are known to M.A.X. <br>
+          The white rows might be added later.
+        </caption>
           <tr> <!-- Row 1 -->
             <th>Hotline</th>
             <th>Description</th>
@@ -102,7 +105,7 @@
           </tr>
           <tr> <!-- Row 1 -->
             <td class = "cell-top-left">Depression</td>
-            <td class = "cell">For people thinking about suicide or people that know someone who thinks about it.</td>
+            <td class = "cell">For people with suicidal thoughts.</td>
             <td class = "cell">(0900-0)113</td>
             <td class = "cell">7 days per week, 24 hours.</td>
             <td class = "cell-top-right"><a href = "https://www.113.nl/">113 zelfmoordpreventie</a></td>
