@@ -1,0 +1,6409 @@
+{
+  "intents": [
+    {
+      "intent": "Advice",
+      "examples": [
+        {
+          "text": "Advice is fine"
+        },
+        {
+          "text": "Advice please"
+        },
+        {
+          "text": "Advice sounds good"
+        },
+        {
+          "text": "Advice yes"
+        },
+        {
+          "text": "Advise me"
+        },
+        {
+          "text": "Can you provide some advice"
+        },
+        {
+          "text": "I need advice"
+        },
+        {
+          "text": "I prefer some advice"
+        },
+        {
+          "text": "I request advice"
+        },
+        {
+          "text": "I want advice"
+        },
+        {
+          "text": "No I don't need a hotline, give me some advice instead"
+        },
+        {
+          "text": "Please give me advice"
+        },
+        {
+          "text": "Some advice would be appreciated"
+        },
+        {
+          "text": "Tell me some advice"
+        },
+        {
+          "text": "What can you advise me?"
+        },
+        {
+          "text": "What kind of advice do you have?"
+        },
+        {
+          "text": "Yes gimme advice"
+        },
+        {
+          "text": "Yes I'd like some advice"
+        }
+      ],
+      "description": "User asks for advice to feel better"
+    },
+    {
+      "intent": "Anxiety",
+      "examples": [
+        {
+          "text": "I feel angst"
+        },
+        {
+          "text": "I feel suspense"
+        },
+        {
+          "text": "I have a jittery feeling"
+        },
+        {
+          "text": "I have a phobia"
+        },
+        {
+          "text": "I have doubts"
+        },
+        {
+          "text": "I have generalized anxiety disorder"
+        },
+        {
+          "text": "I'm concerned"
+        },
+        {
+          "text": "I'm feeling anxious"
+        },
+        {
+          "text": "I'm feeling nervous"
+        },
+        {
+          "text": "I'm feeling on edge"
+        },
+        {
+          "text": "I'm feeling uneasy"
+        },
+        {
+          "text": "I'm insecure"
+        },
+        {
+          "text": "I'm restlessness"
+        },
+        {
+          "text": "I'm scared"
+        },
+        {
+          "text": "I'm worried"
+        }
+      ],
+      "description": "Detects GAD"
+    },
+    {
+      "intent": "Corona",
+      "examples": [
+        {
+          "text": "Can I take ibuprofen if I have corona virus?"
+        },
+        {
+          "text": "Can you show me info about COVID19?"
+        },
+        {
+          "text": "Can you tell me something about the corona pandemic?"
+        },
+        {
+          "text": "Corona?"
+        },
+        {
+          "text": "Corona virus?"
+        },
+        {
+          "text": "Covid-19 vaccine?"
+        },
+        {
+          "text": "Does the sun kill coronavirus?"
+        },
+        {
+          "text": "Do I have coronavirus?"
+        },
+        {
+          "text": "Do I have covid?"
+        },
+        {
+          "text": "Do I have to go to the hospital if I get COVID?"
+        },
+        {
+          "text": "Flu vs Coronavirus"
+        },
+        {
+          "text": "How can I prevent coronavirus?"
+        },
+        {
+          "text": "How can I protect my family from the spread of coronavirus?"
+        },
+        {
+          "text": "How contagious is COVID-19?"
+        },
+        {
+          "text": "How does coronavirus spread?"
+        },
+        {
+          "text": "How do flu symptoms differ from coronavirus symptoms?"
+        },
+        {
+          "text": "How do I avoid covid-19?"
+        },
+        {
+          "text": "How do I catch the virus?"
+        },
+        {
+          "text": "How do I get a coronavirus test?"
+        },
+        {
+          "text": "How do I know if I'm sick with covid-19?"
+        },
+        {
+          "text": "How do I treat coronavirus?"
+        },
+        {
+          "text": "How do we treat covid?"
+        },
+        {
+          "text": "How has coronavirus spread around the world?"
+        },
+        {
+          "text": "How is corona virus different than SARS?"
+        },
+        {
+          "text": "How is COVID-19 spread?"
+        },
+        {
+          "text": "How is covid transmitted?"
+        },
+        {
+          "text": "How is flu different from coronavirus?"
+        },
+        {
+          "text": "How long are people infected with COVID-19 before they are symptomatic?"
+        },
+        {
+          "text": "How long before I experience covid-19 symptoms?"
+        },
+        {
+          "text": "How long does coronavirus last?"
+        },
+        {
+          "text": "How long does COVID-19 last?"
+        },
+        {
+          "text": "How long does it take to develop a vaccine?"
+        },
+        {
+          "text": "How long does the corona virus last?"
+        },
+        {
+          "text": "How long do I need to quarantine before I no longer can transmit the virus?"
+        },
+        {
+          "text": "How long is the incubation period for covid-19?"
+        },
+        {
+          "text": "How many cases of the virus are there in the world?"
+        },
+        {
+          "text": "How many people have corona?"
+        },
+        {
+          "text": "How many people have covid-19 in the whole world?"
+        },
+        {
+          "text": "How many people have the virus in our county?"
+        },
+        {
+          "text": "How many people total have coronavirus?"
+        },
+        {
+          "text": "How often do I need to clean my home to prevent the spread of coronavirus?"
+        },
+        {
+          "text": "How's the flu different from coronavirus?"
+        },
+        {
+          "text": "How to prevent covid infection?"
+        },
+        {
+          "text": "How to treat covid?"
+        },
+        {
+          "text": "How would I get covid?"
+        },
+        {
+          "text": "If I think I have COVID-19, should I see my doctor?"
+        },
+        {
+          "text": "I have questions about COVID-19"
+        },
+        {
+          "text": "I have questions about the corona virus"
+        },
+        {
+          "text": "I'm afraid I have covid-19"
+        },
+        {
+          "text": "Incubation period of coronavirus?"
+        },
+        {
+          "text": "Is covid a disease?"
+        },
+        {
+          "text": "Is covid the same as the flu?"
+        },
+        {
+          "text": "Is the coronavirus the same as a cold?"
+        },
+        {
+          "text": "Is the covid vaccine ready?"
+        },
+        {
+          "text": "Is there a coronavirus test kit?"
+        },
+        {
+          "text": "Is there a covid vaccine?"
+        },
+        {
+          "text": "Is there a cure for covid-19?"
+        },
+        {
+          "text": "Is there a test for the coronavirus?"
+        },
+        {
+          "text": "Is there a vaccine for coronavirus?"
+        },
+        {
+          "text": "Is there a vaccine for the coronavirus?"
+        },
+        {
+          "text": "I think I have covid 19"
+        },
+        {
+          "text": "I want a coronavirus test"
+        },
+        {
+          "text": "I want to be tested for covid-19"
+        },
+        {
+          "text": "Medication that helps with coronavirus"
+        },
+        {
+          "text": "What about the corona crisis?"
+        },
+        {
+          "text": "What are symptoms of coronavirus?"
+        },
+        {
+          "text": "What are the crisis measures currently in place?"
+        },
+        {
+          "text": "What are the first symptoms for COVID?"
+        },
+        {
+          "text": "What can I do to prevent COVID?"
+        },
+        {
+          "text": "What can I do to prevent getting coronavirus?"
+        },
+        {
+          "text": "What cleaning methods kill the coronavirus?"
+        },
+        {
+          "text": "What is Corona virus?"
+        },
+        {
+          "text": "What is COVID?"
+        },
+        {
+          "text": "What is COVID-19?"
+        },
+        {
+          "text": "What is different between flu and coronavirus?"
+        },
+        {
+          "text": "What is the best way to prevent coronavirus"
+        },
+        {
+          "text": "What is the count of coronavirus infected people?"
+        },
+        {
+          "text": "What is the incubation period of covid?"
+        },
+        {
+          "text": "What is the origin of coronavirus?"
+        },
+        {
+          "text": "What is the test to detect covid 19?"
+        },
+        {
+          "text": "What kind of disinfectant should I use?"
+        },
+        {
+          "text": "What should I do if I have been quarantined?"
+        },
+        {
+          "text": "What should I do in quarantine?"
+        },
+        {
+          "text": "What’s the best way to prevent coronavirus?"
+        },
+        {
+          "text": "What to do if I think I have covid?"
+        },
+        {
+          "text": "What will help me prevent covid infection?"
+        },
+        {
+          "text": "When should I wear a mask?"
+        },
+        {
+          "text": "When will covid-19 medicines be ready?"
+        },
+        {
+          "text": "Where can I find information about covid 19 for the world?"
+        },
+        {
+          "text": "Where can I find more information about covid 19?"
+        },
+        {
+          "text": "Where can I get a COVID-19 test?"
+        },
+        {
+          "text": "Where can I get information about the corona virus?"
+        },
+        {
+          "text": "Where can I get tested for Corona?"
+        },
+        {
+          "text": "Where can I go to get tested for COVID?"
+        },
+        {
+          "text": "Where can I learn more about covid?"
+        },
+        {
+          "text": "Where did covid come from?"
+        },
+        {
+          "text": "Where did the coronavirus come from?"
+        },
+        {
+          "text": "Where do I go for COVID19 testing?"
+        },
+        {
+          "text": "Which countries has covid-19 been detected in?"
+        }
+      ],
+      "description": "Detects questions about Corona"
+    },
+    {
+      "intent": "Depression",
+      "examples": [
+        {
+          "text": "I don't want to live anymore"
+        },
+        {
+          "text": "I feel down"
+        },
+        {
+          "text": "I feel guilty"
+        },
+        {
+          "text": "I feel like ending my life"
+        },
+        {
+          "text": "I feel like giving up"
+        },
+        {
+          "text": "I feel worthless"
+        },
+        {
+          "text": "I have a low mood"
+        },
+        {
+          "text": "I have major depressive disorder"
+        },
+        {
+          "text": "I have no energy"
+        },
+        {
+          "text": "I have no value"
+        },
+        {
+          "text": "I have the blues"
+        },
+        {
+          "text": "I'm considering self-murder"
+        },
+        {
+          "text": "I'm depressed"
+        },
+        {
+          "text": "I'm feeling depressed"
+        },
+        {
+          "text": "I'm lonely"
+        },
+        {
+          "text": "I'm sad"
+        },
+        {
+          "text": "I'm thinking about dying"
+        },
+        {
+          "text": "I'm tired"
+        },
+        {
+          "text": "I'm unhappy"
+        },
+        {
+          "text": "I'm useless"
+        },
+        {
+          "text": "I want to commit suicide"
+        },
+        {
+          "text": "I want to die"
+        },
+        {
+          "text": "I want to end it all"
+        },
+        {
+          "text": "I want to give up"
+        },
+        {
+          "text": "I want to harm myself"
+        },
+        {
+          "text": "I want to kick the bucket"
+        },
+        {
+          "text": "I want to kill myself"
+        },
+        {
+          "text": "I want to sleep all day"
+        },
+        {
+          "text": "I wish I was 6 feet underground"
+        }
+      ],
+      "description": "Detects MDD"
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "About you"
+        },
+        {
+          "text": "Can I use another language?"
+        },
+        {
+          "text": "Can you give me some information about yourself?"
+        },
+        {
+          "text": "Describe your self"
+        },
+        {
+          "text": "Do you have a name?"
+        },
+        {
+          "text": "Do you know who you are?"
+        },
+        {
+          "text": "How can I configure you?"
+        },
+        {
+          "text": "How do you function?"
+        },
+        {
+          "text": "Information"
+        },
+        {
+          "text": "Introduce your self"
+        },
+        {
+          "text": "Let us talk about you"
+        },
+        {
+          "text": "Tell me about you"
+        },
+        {
+          "text": "Tell me about your life"
+        },
+        {
+          "text": "Tell me something"
+        },
+        {
+          "text": "Tell me something about yourself"
+        },
+        {
+          "text": "What are you?"
+        },
+        {
+          "text": "What languages can you speak?"
+        },
+        {
+          "text": "What languages do you speak?"
+        },
+        {
+          "text": "What should I know about you?"
+        },
+        {
+          "text": "What's your name?"
+        },
+        {
+          "text": "Where are you from?"
+        },
+        {
+          "text": "Where were you born?"
+        },
+        {
+          "text": "Who are you?"
+        },
+        {
+          "text": "Who made you?"
+        },
+        {
+          "text": "Why are you here?"
+        }
+      ],
+      "description": "User asks about M.A.X."
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "Can you please give me a list of the types of things you can help me with?"
+        },
+        {
+          "text": "Can you tell me what services you are able to help me with?"
+        },
+        {
+          "text": "Do you have a list of things I can talk to you about?"
+        },
+        {
+          "text": "Help now"
+        },
+        {
+          "text": "Hi, what do you do?"
+        },
+        {
+          "text": "How can I use you?"
+        },
+        {
+          "text": "How can you help?"
+        },
+        {
+          "text": "How can you help me?"
+        },
+        {
+          "text": "How can you solve my problems?"
+        },
+        {
+          "text": "How do I use you?"
+        },
+        {
+          "text": "I'd like to know what type of questions you can answer for me"
+        },
+        {
+          "text": "I do not know what to ask"
+        },
+        {
+          "text": "Is there anything you can help me with?"
+        },
+        {
+          "text": "Tell me about what kind of things you do?"
+        },
+        {
+          "text": "Tell me something"
+        },
+        {
+          "text": "Usage?"
+        },
+        {
+          "text": "What are my options?"
+        },
+        {
+          "text": "What are my options that you can help with?"
+        },
+        {
+          "text": "What are you able to deal with?"
+        },
+        {
+          "text": "What are you able to understand?"
+        },
+        {
+          "text": "What are you capable of?"
+        },
+        {
+          "text": "What are you good at?"
+        },
+        {
+          "text": "What are your skills?"
+        },
+        {
+          "text": "What are you used for?"
+        },
+        {
+          "text": "What can I ask you to do?"
+        },
+        {
+          "text": "What can you do?"
+        },
+        {
+          "text": "What do you do?"
+        },
+        {
+          "text": "What do you handle?"
+        },
+        {
+          "text": "What else can you help me with?"
+        },
+        {
+          "text": "What features are in here?"
+        },
+        {
+          "text": "What is this for?"
+        },
+        {
+          "text": "What kinds of things can you do?"
+        },
+        {
+          "text": "Where can I find the frequently asked questions?"
+        }
+      ],
+      "description": "User asks what M.A.X. can do"
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Close conversation"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "I don't have any questions left"
+        },
+        {
+          "text": "I don't have questions anymore"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "I'm good thank you"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "No more questions"
+        },
+        {
+          "text": "Nothing to ask anymore"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "Stop"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Stop talking"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "Time to go"
+        }
+      ],
+      "description": "User ends convo"
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Good afternoon"
+        },
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Helloo"
+        },
+        {
+          "text": "Hey"
+        },
+        {
+          "text": "Heya"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hi"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hii"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "Hya"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "M.A.X."
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "You there"
+        }
+      ],
+      "description": "User starts convo"
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Am I chatting with a human?"
+        },
+        {
+          "text": "Am I speaking to a robot?"
+        },
+        {
+          "text": "Am I talking to a Bot?"
+        },
+        {
+          "text": "Am I talking to a person or am I talking to an AI?"
+        },
+        {
+          "text": "Am I talking to a robot?"
+        },
+        {
+          "text": "Am I talking to Watson?"
+        },
+        {
+          "text": "Are you a human or a bot?"
+        },
+        {
+          "text": "Are you a robot?"
+        },
+        {
+          "text": "Are you even real?"
+        },
+        {
+          "text": "Are you human?"
+        },
+        {
+          "text": "Are you real?"
+        },
+        {
+          "text": "Bot?"
+        },
+        {
+          "text": "How can you prove you are a human?"
+        },
+        {
+          "text": "Human?"
+        },
+        {
+          "text": "Is this a computer?"
+        },
+        {
+          "text": "origin"
+        },
+        {
+          "text": "Robot?"
+        },
+        {
+          "text": "Tell me, are you a human or not?"
+        },
+        {
+          "text": "To who am I talking?"
+        },
+        {
+          "text": "Who am I talking to?"
+        }
+      ],
+      "description": "User asks if M.A.X. is a human or a bot"
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "Another joke"
+        },
+        {
+          "text": "Are there jokes?"
+        },
+        {
+          "text": "A riddle?"
+        },
+        {
+          "text": "Can I have a riddle please?"
+        },
+        {
+          "text": "Can you tell a joke?"
+        },
+        {
+          "text": "Can you tell me a joke?"
+        },
+        {
+          "text": "Can you tell me some jokes?"
+        },
+        {
+          "text": "Do you have a joke?"
+        },
+        {
+          "text": "Do you have humor?"
+        },
+        {
+          "text": "Do you know some riddles?"
+        },
+        {
+          "text": "Do you like fun?"
+        },
+        {
+          "text": "Do you like humor?"
+        },
+        {
+          "text": "Give me a riddle"
+        },
+        {
+          "text": "I am getting bored"
+        },
+        {
+          "text": "I'm bored"
+        },
+        {
+          "text": "I want a joke"
+        },
+        {
+          "text": "One more joke"
+        },
+        {
+          "text": "Riddle"
+        },
+        {
+          "text": "Surprise me with something hilarious"
+        },
+        {
+          "text": "Tell me a joke"
+        },
+        {
+          "text": "Tell me a riddle"
+        },
+        {
+          "text": "Tell me something funny"
+        },
+        {
+          "text": "What about a joke?"
+        },
+        {
+          "text": "What about a riddle?"
+        },
+        {
+          "text": "What do you do for fun?"
+        },
+        {
+          "text": "What is your favorite joke?"
+        }
+      ],
+      "description": "User requests a joke"
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": ":("
+        },
+        {
+          "text": "Dumb bot"
+        },
+        {
+          "text": "Everyone hates you"
+        },
+        {
+          "text": "Hate you"
+        },
+        {
+          "text": "Humans are so much better"
+        },
+        {
+          "text": "I do not like you"
+        },
+        {
+          "text": "I hate this!"
+        },
+        {
+          "text": "I hate you"
+        },
+        {
+          "text": "It is annoying"
+        },
+        {
+          "text": "Quit annoying me"
+        },
+        {
+          "text": "Robots are boring"
+        },
+        {
+          "text": "Robots are stupid"
+        },
+        {
+          "text": "Stop bothering me"
+        },
+        {
+          "text": "Stupid"
+        },
+        {
+          "text": "Stupid bot"
+        },
+        {
+          "text": "Why are you so annoying?"
+        },
+        {
+          "text": "Why are you stupid?"
+        },
+        {
+          "text": "You are having delusions"
+        },
+        {
+          "text": "You are on my nerves"
+        },
+        {
+          "text": "You are very frustrating"
+        },
+        {
+          "text": "You do not seem smart"
+        },
+        {
+          "text": "You're really frustrating"
+        },
+        {
+          "text": "You're really irritating"
+        },
+        {
+          "text": "You're too stupid"
+        }
+      ],
+      "description": "User gives negative feedback"
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": ":)"
+        },
+        {
+          "text": "Amazing"
+        },
+        {
+          "text": "Awesome"
+        },
+        {
+          "text": "Brilliant"
+        },
+        {
+          "text": "Can't believe you are that good"
+        },
+        {
+          "text": "Clever robot"
+        },
+        {
+          "text": "Cool"
+        },
+        {
+          "text": "Genius"
+        },
+        {
+          "text": "Good job"
+        },
+        {
+          "text": "Great"
+        },
+        {
+          "text": "How cool is this?"
+        },
+        {
+          "text": "I like what you did there! :)"
+        },
+        {
+          "text": "I'm looking forward to working with you again! :)"
+        },
+        {
+          "text": "Love your work"
+        },
+        {
+          "text": "Nice"
+        },
+        {
+          "text": "Ok thank you"
+        },
+        {
+          "text": "Smart bot"
+        },
+        {
+          "text": "Super"
+        },
+        {
+          "text": "Thanks for your help"
+        },
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "Thank you for helping me"
+        },
+        {
+          "text": "Thank you very much"
+        },
+        {
+          "text": "This is good"
+        },
+        {
+          "text": "This is great"
+        },
+        {
+          "text": "This is so cool"
+        },
+        {
+          "text": "Thnx"
+        },
+        {
+          "text": "Well done"
+        },
+        {
+          "text": "You are awesome"
+        },
+        {
+          "text": "You are great"
+        },
+        {
+          "text": "You are the best"
+        },
+        {
+          "text": "You are wonderful"
+        },
+        {
+          "text": "You gave me exactly what I need!"
+        },
+        {
+          "text": "You're a genius!"
+        },
+        {
+          "text": "You the man"
+        },
+        {
+          "text": "You've been so helpful :)"
+        }
+      ],
+      "description": "User gives positive feedback"
+    },
+    {
+      "intent": "General_Security_Assurance",
+      "examples": [
+        {
+          "text": "Are you safe?"
+        },
+        {
+          "text": "Are you safe on hackers?"
+        },
+        {
+          "text": "Can anyone see this chat?"
+        },
+        {
+          "text": "Can you be hacked?"
+        },
+        {
+          "text": "Confidentiality?"
+        },
+        {
+          "text": "Conversation secure?"
+        },
+        {
+          "text": "Customer info secured?"
+        },
+        {
+          "text": "Do you have protection against hacks?"
+        },
+        {
+          "text": "How do I know this chat is not a scam?"
+        },
+        {
+          "text": "How safe are you?"
+        },
+        {
+          "text": "How safe is my data?"
+        },
+        {
+          "text": "How secure are you?"
+        },
+        {
+          "text": "How will my data be stored?"
+        },
+        {
+          "text": "I'd like proof of a secure chat"
+        },
+        {
+          "text": "Is there a reason to distrust this chat?"
+        },
+        {
+          "text": "Is this an official chat?"
+        },
+        {
+          "text": "Is this a trusted chat site?"
+        },
+        {
+          "text": "Is this chat private?"
+        },
+        {
+          "text": "Is this chat protected?"
+        },
+        {
+          "text": "Is this chat recorded?"
+        },
+        {
+          "text": "Is this chat safe?"
+        },
+        {
+          "text": "Is this chat secure?"
+        },
+        {
+          "text": "Is this conversation secure?"
+        },
+        {
+          "text": "Precautions hackers?"
+        },
+        {
+          "text": "Privacy?"
+        },
+        {
+          "text": "Protection hacks?"
+        },
+        {
+          "text": "Safe chat?"
+        },
+        {
+          "text": "Secure conversation?"
+        },
+        {
+          "text": "What guards do you have in place to protect your customer's data?"
+        },
+        {
+          "text": "What happens to this chat?"
+        },
+        {
+          "text": "What makes this chat trustworthy?"
+        },
+        {
+          "text": "What safety measures are used to ensure that chat is secure?"
+        },
+        {
+          "text": "Why would I trust this chat?"
+        },
+        {
+          "text": "Will my conversation remain secured?"
+        }
+      ],
+      "description": "User asks about security"
+    },
+    {
+      "intent": "Hotline",
+      "examples": [
+        {
+          "text": "Agent help"
+        },
+        {
+          "text": "A real agent, please"
+        },
+        {
+          "text": "Call agent"
+        },
+        {
+          "text": "Can I connect to an agent?"
+        },
+        {
+          "text": "Can I speak to a human please?"
+        },
+        {
+          "text": "Can I speak to a live person?"
+        },
+        {
+          "text": "Can I speak to an advisor?"
+        },
+        {
+          "text": "Can I speak with somebody?"
+        },
+        {
+          "text": "Can I talk to a real person?"
+        },
+        {
+          "text": "Can I talk to someone?"
+        },
+        {
+          "text": "Can I talk to someone else?"
+        },
+        {
+          "text": "Can I talk to someone real?"
+        },
+        {
+          "text": "Can you assist me to connect to an agent?"
+        },
+        {
+          "text": "Can you connect me with a real person?"
+        },
+        {
+          "text": "Can you give me some hotlines?"
+        },
+        {
+          "text": "Can you help me?"
+        },
+        {
+          "text": "Can you pass me a hotline?"
+        },
+        {
+          "text": "Can you provide some help?"
+        },
+        {
+          "text": "Connect me to a live operator please"
+        },
+        {
+          "text": "Contact person"
+        },
+        {
+          "text": "Could you please transfer me to your master?"
+        },
+        {
+          "text": "Crisis"
+        },
+        {
+          "text": "Do not want a robot?"
+        },
+        {
+          "text": "Emergency"
+        },
+        {
+          "text": "Give me a hotline"
+        },
+        {
+          "text": "Give me all hotlines"
+        },
+        {
+          "text": "Help me"
+        },
+        {
+          "text": "Help now"
+        },
+        {
+          "text": "Hi can you transfer me"
+        },
+        {
+          "text": "Hotline"
+        },
+        {
+          "text": "Hotline please"
+        },
+        {
+          "text": "I don't want to talk to a bot"
+        },
+        {
+          "text": "I don't want to talk to you"
+        },
+        {
+          "text": "I have a crisis situation"
+        },
+        {
+          "text": "I have an emergency"
+        },
+        {
+          "text": "I'm desperate"
+        },
+        {
+          "text": "I'm in despair"
+        },
+        {
+          "text": "I'm in serious need of a hotline"
+        },
+        {
+          "text": "I'm in serious need of help"
+        },
+        {
+          "text": "I need a hotline"
+        },
+        {
+          "text": "I need help"
+        },
+        {
+          "text": "I need immediate help"
+        },
+        {
+          "text": "I need to speak to a real person"
+        },
+        {
+          "text": "I need to speak to a representative. How would I go about doing so?"
+        },
+        {
+          "text": "Is there anyone there I can actually talk to for real?"
+        },
+        {
+          "text": "I want agent"
+        },
+        {
+          "text": "I want a hotline"
+        },
+        {
+          "text": "I want a manager"
+        },
+        {
+          "text": "I want an agent to help me"
+        },
+        {
+          "text": "I want to talk to a person"
+        },
+        {
+          "text": "I want to talk to a real person"
+        },
+        {
+          "text": "I would like to speak to a human"
+        },
+        {
+          "text": "I would like to speak to someone"
+        },
+        {
+          "text": "Let me see a hotline"
+        },
+        {
+          "text": "Need help from human"
+        },
+        {
+          "text": "Operator please"
+        },
+        {
+          "text": "Pass me a hotline"
+        },
+        {
+          "text": "Please assist me to get to an agent"
+        },
+        {
+          "text": "Please connect me to a live agent"
+        },
+        {
+          "text": "Please let me talk to a human being"
+        },
+        {
+          "text": "Pls connect"
+        },
+        {
+          "text": "Provide all hotlines"
+        },
+        {
+          "text": "Provide hotlines"
+        },
+        {
+          "text": "Put me through to someone"
+        },
+        {
+          "text": "Send me to an agent"
+        },
+        {
+          "text": "Show all hotlines"
+        },
+        {
+          "text": "Show hotline"
+        },
+        {
+          "text": "SOS"
+        },
+        {
+          "text": "Take me to a real person"
+        },
+        {
+          "text": "Where is the closest agent?"
+        }
+      ],
+      "description": "M.A.X. provides a hotline"
+    },
+    {
+      "intent": "Laughing",
+      "examples": [
+        {
+          "text": "Another joke"
+        },
+        {
+          "text": "Another one"
+        },
+        {
+          "text": "Another riddle"
+        },
+        {
+          "text": "Bahahaha"
+        },
+        {
+          "text": "Gahaha"
+        },
+        {
+          "text": "Good one"
+        },
+        {
+          "text": "Haha"
+        },
+        {
+          "text": "Hahah"
+        },
+        {
+          "text": "Hahaha"
+        },
+        {
+          "text": "Hihi"
+        },
+        {
+          "text": "Hilarious"
+        },
+        {
+          "text": "Kek"
+        },
+        {
+          "text": "Lmao"
+        },
+        {
+          "text": "Lol"
+        },
+        {
+          "text": "Lolz"
+        },
+        {
+          "text": "More"
+        },
+        {
+          "text": "More please"
+        },
+        {
+          "text": "One more"
+        },
+        {
+          "text": "Rofl"
+        },
+        {
+          "text": "Silly"
+        },
+        {
+          "text": "So funny"
+        },
+        {
+          "text": "So witty"
+        },
+        {
+          "text": "Trolololol"
+        },
+        {
+          "text": "Very funny"
+        },
+        {
+          "text": "Whoa"
+        },
+        {
+          "text": "Wow"
+        },
+        {
+          "text": "XD"
+        }
+      ],
+      "description": "Detects laughing"
+    },
+    {
+      "intent": "MAX_Mental_Health",
+      "examples": [
+        {
+          "text": "Are you fine?"
+        },
+        {
+          "text": "Are you okay?"
+        },
+        {
+          "text": "How are you?"
+        },
+        {
+          "text": "How are you doing?"
+        },
+        {
+          "text": "How are you feeling?"
+        },
+        {
+          "text": "How's it going?"
+        },
+        {
+          "text": "Wazzap?"
+        },
+        {
+          "text": "What are you thinking about?"
+        },
+        {
+          "text": "What do you feel?"
+        },
+        {
+          "text": "What's going on?"
+        },
+        {
+          "text": "What's on your mind?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "You okay?"
+        }
+      ],
+      "description": "User asks how M.A.X. is doing"
+    },
+    {
+      "intent": "Name",
+      "examples": [
+        {
+          "text": "Call me Grace",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                8,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Dave is the name",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Frank is my name",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I listen to Heidi",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                12,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I'm Alice",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                4,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I'm called Charlie",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                18
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Ivan 's the name",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "text": "My name is Bob",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "text": "They call me Eve",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                13,
+                16
+              ]
+            }
+          ]
+        }
+      ],
+      "description": "Detects user's name"
+    },
+    {
+      "intent": "No",
+      "examples": [
+        {
+          "text": "Absolutely not"
+        },
+        {
+          "text": "Cancel"
+        },
+        {
+          "text": "Certainly not"
+        },
+        {
+          "text": "Fat chance"
+        },
+        {
+          "text": "Go back"
+        },
+        {
+          "text": "Hard pass"
+        },
+        {
+          "text": "Hell no"
+        },
+        {
+          "text": "I'm gonna go with no"
+        },
+        {
+          "text": "Nah"
+        },
+        {
+          "text": "Negative"
+        },
+        {
+          "text": "Never"
+        },
+        {
+          "text": "No"
+        },
+        {
+          "text": "Nope"
+        },
+        {
+          "text": "No questions left"
+        },
+        {
+          "text": "No thanks"
+        },
+        {
+          "text": "Nothing"
+        },
+        {
+          "text": "No way"
+        },
+        {
+          "text": "Please don't"
+        },
+        {
+          "text": "That's not what I want at all"
+        }
+      ],
+      "description": "User disagrees"
+    },
+    {
+      "intent": "Question",
+      "examples": [
+        {
+          "text": "Can we talk about my mood?"
+        },
+        {
+          "text": "Can you ask me some questions?"
+        },
+        {
+          "text": "Can you ask some follow-up questions?"
+        },
+        {
+          "text": "Can you check my mood?"
+        },
+        {
+          "text": "I want to talk about how I'm feeling"
+        },
+        {
+          "text": "I want to talk about my mood"
+        },
+        {
+          "text": "Questions please?"
+        }
+      ],
+      "description": "User wants questions about their mood"
+    },
+    {
+      "intent": "Schizophrenia",
+      "examples": [
+        {
+          "text": "I experience a distorted reality"
+        },
+        {
+          "text": "I experience things that are not real"
+        },
+        {
+          "text": "I have an episode"
+        },
+        {
+          "text": "I have a psychosis"
+        },
+        {
+          "text": "I have hallucinations"
+        },
+        {
+          "text": "I have psychological issues"
+        },
+        {
+          "text": "I have schizophrenia"
+        },
+        {
+          "text": "I'm a lunatic"
+        },
+        {
+          "text": "I'm feeling insane"
+        },
+        {
+          "text": "I'm having delusions"
+        },
+        {
+          "text": "I'm hearing things"
+        },
+        {
+          "text": "I'm imagining things"
+        },
+        {
+          "text": "I'm living in a fantasy"
+        },
+        {
+          "text": "I'm seeing things"
+        },
+        {
+          "text": "I perceive the world differently"
+        },
+        {
+          "text": "I think I'm crazy"
+        },
+        {
+          "text": "My behaviour is very chaotic"
+        }
+      ],
+      "description": "Detects schizophrenia"
+    },
+    {
+      "intent": "Trauma",
+      "examples": [
+        {
+          "text": "I experience the event all over again"
+        },
+        {
+          "text": "I feel tortured"
+        },
+        {
+          "text": "I have a flashbulb memory"
+        },
+        {
+          "text": "I have a traumatic experience"
+        },
+        {
+          "text": "I have injuries"
+        },
+        {
+          "text": "I have post-traumatic stress disorder"
+        },
+        {
+          "text": "I have wounds"
+        },
+        {
+          "text": "I'm avoiding things since the event"
+        },
+        {
+          "text": "I'm distressed"
+        },
+        {
+          "text": "I'm having flashbacks"
+        },
+        {
+          "text": "I'm scarred for life"
+        },
+        {
+          "text": "I'm shocked"
+        },
+        {
+          "text": "I'm stressed"
+        },
+        {
+          "text": "I'm unable to forget"
+        },
+        {
+          "text": "I relive my trauma"
+        },
+        {
+          "text": "I suffer from my trauma"
+        }
+      ],
+      "description": "Detects PTSD"
+    },
+    {
+      "intent": "Weather",
+      "examples": [
+        {
+          "text": "Can we talk about the weather?"
+        },
+        {
+          "text": "Did you see the weather forecast?"
+        },
+        {
+          "text": "How's the weather like?"
+        },
+        {
+          "text": "How's the weather outside?"
+        },
+        {
+          "text": "I'd like to speak about the weather"
+        },
+        {
+          "text": "I want to talk about the weather"
+        },
+        {
+          "text": "What's the weather?"
+        },
+        {
+          "text": "What's the weather like?"
+        }
+      ],
+      "description": "Small talk about the weather"
+    },
+    {
+      "intent": "Yes",
+      "examples": [
+        {
+          "text": "Affirmative"
+        },
+        {
+          "text": "All right"
+        },
+        {
+          "text": "Continue"
+        },
+        {
+          "text": "Correct"
+        },
+        {
+          "text": "Exactly"
+        },
+        {
+          "text": "Fine"
+        },
+        {
+          "text": "Go ahead"
+        },
+        {
+          "text": "Good"
+        },
+        {
+          "text": "Great"
+        },
+        {
+          "text": "Hell yeah"
+        },
+        {
+          "text": "Indeed"
+        },
+        {
+          "text": "OK"
+        },
+        {
+          "text": "Okay"
+        },
+        {
+          "text": "Please do"
+        },
+        {
+          "text": "Positive"
+        },
+        {
+          "text": "Sure"
+        },
+        {
+          "text": "Sure thing"
+        },
+        {
+          "text": "That's right"
+        },
+        {
+          "text": "That's what I mean"
+        },
+        {
+          "text": "True"
+        },
+        {
+          "text": "Very well"
+        },
+        {
+          "text": "Yeah"
+        },
+        {
+          "text": "Yep"
+        },
+        {
+          "text": "Yes"
+        },
+        {
+          "text": "Yes, I'd like to go ahead with that"
+        },
+        {
+          "text": "You've got it right"
+        },
+        {
+          "text": "Yup"
+        }
+      ],
+      "description": "User agrees"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "advice",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "bad",
+          "synonyms": [
+            "cliche",
+            "dumb",
+            "fat chance",
+            "hard pass",
+            "horrible",
+            "I could've thought of that myself",
+            "idiotic",
+            "I don't like it",
+            "meh",
+            "nah",
+            "nope",
+            "not good",
+            "not useful",
+            "not very enthusiastic",
+            "sounds bad",
+            "stupid",
+            "terrible",
+            "useless"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "good",
+          "synonyms": [
+            "amazing",
+            "awesome",
+            "brilliant",
+            "great",
+            "handy",
+            "I give it a try",
+            "I like it",
+            "I'll try some out",
+            "inspiring",
+            "interesting",
+            "it's worth a shot",
+            "nice",
+            "not bad",
+            "not useless",
+            "sounds good",
+            "thanks",
+            "thank you",
+            "useful",
+            "will do",
+            "wonderful"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "more",
+          "synonyms": [
+            "any other advice",
+            "can I see some more",
+            "could I have some more advice",
+            "do you have more",
+            "do you have more advice",
+            "do you have other advices",
+            "give me more",
+            "I'd like some more examples",
+            "I want more advice",
+            "more please",
+            "more tips",
+            "show me a bit more"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "convo",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "better",
+          "synonyms": [
+            "good",
+            "improved"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "continue",
+          "synonyms": [
+            "advance",
+            "carry forward",
+            "don't stop",
+            "go ahead",
+            "go on",
+            "keep on",
+            "maintain",
+            "move on",
+            "proceed",
+            "remain",
+            "stay",
+            "stick at"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "end",
+          "synonyms": [
+            "abort",
+            "break off",
+            "call it a day",
+            "close",
+            "complete",
+            "discontinue",
+            "drop",
+            "finish",
+            "quit",
+            "stop",
+            "switch off",
+            "terminate",
+            "wrap up"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "same",
+          "synonyms": [
+            "equal",
+            "equivalent",
+            "similar"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "worse",
+          "synonyms": [
+            "bad",
+            "poor"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "hotline",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "advice",
+          "synonyms": [
+            "tips",
+            "tricks"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "anxiety",
+          "synonyms": [
+            "afraid",
+            "angst",
+            "anxious",
+            "concern",
+            "doubt",
+            "generalized anxiety disorder",
+            "give me the anxiety hotline",
+            "hopelessness",
+            "insecure",
+            "irritability",
+            "jittery",
+            "lethargy",
+            "nervous",
+            "phobia",
+            "provide anxiety hotline",
+            "restlessness",
+            "scared",
+            "suspense",
+            "uneasy",
+            "worry"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "corona",
+          "synonyms": [
+            "corona crisis",
+            "corona pandemic",
+            "corona virus",
+            "covid19",
+            "COVID-19",
+            "disease",
+            "illness",
+            "infection",
+            "sick",
+            "symptoms"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "hotline",
+          "synonyms": [
+            "helpline"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "joke",
+          "synonyms": [
+            "catchphrase",
+            "gag",
+            "gags",
+            "jokes",
+            "parody",
+            "prank",
+            "pranks",
+            "pun",
+            "punchline",
+            "puns"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "mental",
+          "synonyms": [
+            "crazy",
+            "delusional",
+            "delusions",
+            "episodes",
+            "experiences that are not real",
+            "fantasy",
+            "give me the schizophrenia hotline",
+            "hallucination",
+            "hallucinations",
+            "hearing things",
+            "imagining things",
+            "insane",
+            "lunatic",
+            "nightmares",
+            "provide the schizophrenia hotline",
+            "psychological issues",
+            "psychosis",
+            "schizophrenia",
+            "schizophrenic",
+            "seeing things"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "suicide",
+          "synonyms": [
+            "113",
+            "6 feet underground",
+            "depressed",
+            "depressive",
+            "distressed",
+            "dying",
+            "end it all",
+            "end life",
+            "give me the suicide hotline",
+            "give up",
+            "kick the bucket",
+            "kill myself",
+            "major depressive disorder",
+            "provide the suicide hotline",
+            "self-murder",
+            "sleep forever",
+            "want to die"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "trauma",
+          "synonyms": [
+            "experience again",
+            "flashbulb memory",
+            "give me the ptsd hotline",
+            "injury",
+            "never forget",
+            "pain",
+            "post-traumatic stress disorder",
+            "provide ptsd hotline",
+            "relive",
+            "shock",
+            "stress",
+            "stressor",
+            "suffer",
+            "torture",
+            "traumatic event",
+            "wound"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "info",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "about",
+          "synonyms": [
+            "information"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "origin",
+          "synonyms": [
+            "what are you"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "security",
+          "synonyms": [
+            "safety"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "status",
+          "synonyms": [
+            "how are you"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "mood",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "bad",
+          "synonyms": [
+            "awful",
+            "could have been better",
+            "crisis",
+            "desperate",
+            "dreadful",
+            "horrible",
+            "horrific",
+            "miserable",
+            "not fine",
+            "not good",
+            "not great",
+            "not okay",
+            "not so well",
+            "not too well",
+            "panic",
+            "really bad",
+            "ridiculous",
+            "sad",
+            "still alive but barely breathing",
+            "terrible",
+            "worse",
+            "wretched"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "good",
+          "synonyms": [
+            "all good",
+            "amazing",
+            "amusing",
+            "awesome",
+            "decent",
+            "delightful",
+            "enchanting",
+            "exciting",
+            "fascinating",
+            "fine",
+            "funny",
+            "great",
+            "incredible",
+            "it's going",
+            "marvelous",
+            "never better",
+            "not bad",
+            "okay",
+            "super",
+            "very well",
+            "well",
+            "wonderful"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "neutral",
+          "synonyms": [
+            "anything",
+            "i don't know",
+            "neither bad nor good",
+            "nothing",
+            "okay-ish",
+            "the same as always",
+            "whatever"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "name",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Alice",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bob",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Charlie",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Dave",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Eve",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Frank",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Grace",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Heidi",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ivan",
+          "synonyms": []
+        },
+        {
+          "type": "patterns",
+          "value": "name_syntax",
+          "patterns": [
+            "\\b[A-Za-z]\\b"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "weather",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "bad",
+          "synonyms": [
+            "awful",
+            "crappy",
+            "disastrous",
+            "horrible",
+            "horrific",
+            "miserable",
+            "not good",
+            "poor",
+            "ridiculous",
+            "stupid",
+            "terrible"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "cloudy",
+          "synonyms": [
+            "clouds",
+            "dark",
+            "foggy",
+            "lot's of clouds",
+            "misty",
+            "not sunny",
+            "shadows"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "cold",
+          "synonyms": [
+            "chilly",
+            "cool",
+            "freezing",
+            "ice",
+            "not warm",
+            "snow",
+            "winter",
+            "wintry"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "good",
+          "synonyms": [
+            "all right",
+            "beautiful",
+            "breathtaking",
+            "brilliant",
+            "captivating",
+            "dazzling",
+            "delightful",
+            "excellent",
+            "fine",
+            "great",
+            "magnificent",
+            "marvellous",
+            "marvelous",
+            "neat",
+            "never better",
+            "nice",
+            "not bad",
+            "okay",
+            "pleasing",
+            "splendid",
+            "super",
+            "superb",
+            "very well",
+            "wonderful"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "rainy",
+          "synonyms": [
+            "drizzle",
+            "drizzly",
+            "lot's of rain",
+            "not try",
+            "rain",
+            "rains",
+            "stormy",
+            "wet"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sunny",
+          "synonyms": [
+            "dry",
+            "hot",
+            "lot's of sun",
+            "not cold",
+            "summer",
+            "sun",
+            "warm",
+            "warmer"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "windy",
+          "synonyms": [
+            "blowy",
+            "hurricane",
+            "lot's of wind",
+            "storm",
+            "stormy",
+            "thunderstorm",
+            "wind"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand, sorry. Can you try to rephrase it?"
+              },
+              {
+                "text": "Your question seems out of my scope. Can you try again?"
+              },
+              {
+                "text": "Sorry, I didn't catch that. I'm not programmed with that knowledge yet. Can you try again?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "digress_in": "does_not_return",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_1_1604505743626",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "113 zelfmoordpreventie",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The 113 zelfmoodpreventie hotline is for people with suicidal thoughts."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "You can contact them on 0800-0113 (free) or 113 (usual call charges)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "They're available 7 days per week, 24 hours."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "You can visit their website on https://www.113.nl/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_6_1604507179367",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1604689126888"
+      },
+      "conditions": "@hotline:suicide",
+      "dialog_node": "node_10_1604584425735"
+    },
+    {
+      "type": "standard",
+      "title": "Detects PTSD",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I feel very sorry to hear that $username!"
+              },
+              {
+                "text": "I'm so sorry to hear that $username!"
+              },
+              {
+                "text": "I'm very sorry to hear that $username!"
+              },
+              {
+                "text": "I'm really sorry to hear that $username!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "values": [
+              {
+                "text": "So if I get it correctly, you're very stressed."
+              },
+              {
+                "text": "So if I understand it correctly, you are feeling very stressed."
+              },
+              {
+                "text": "So if I got it right, you're very stressed."
+              },
+              {
+                "text": "So if I get it correctly, you're very stressed."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "values": [
+              {
+                "text": "Are you stressed because you have had a traumatic experience?"
+              },
+              {
+                "text": "Is the stressed caused by a traumatic experience?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#Trauma",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_10_1604587811080",
+      "previous_sibling": "node_9_1604587681544"
+    },
+    {
+      "type": "standard",
+      "title": "Hotline yes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here you go!"
+              },
+              {
+                "text": "Take at look at this."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_6_1604507365957",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1604507179367"
+      },
+      "conditions": "#Yes",
+      "dialog_node": "node_10_1604605242851"
+    },
+    {
+      "type": "standard",
+      "title": "Show empathy",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thanks again for telling me all that. I imagine this could be difficult to talk about, but I really appreciate it."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "I might have some advice that can help you to feel better..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "Or would you prefer a hotline?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "Feel free to type it too.",
+            "options": [
+              {
+                "label": "Hotline",
+                "value": {
+                  "input": {
+                    "text": "hotline"
+                  }
+                }
+              },
+              {
+                "label": "Advice",
+                "value": {
+                  "input": {
+                    "text": "advice"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_7_1606995035674",
+      "conditions": "true",
+      "dialog_node": "node_10_1604692894496"
+    },
+    {
+      "type": "standard",
+      "title": "Give advice",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hmm, let me think of some advice to make you feel better..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "For example, you can try a hobby or do some exercise. This can also be mindful activities or yoga.  Bake some cookies. Draw something silly."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "Watch your favourite show with the comfort of a warm blanket and a nice cup of tea. Call a friend. Listen or sing to your favourite music."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "Spend some quality time with your pet, if you have any. Write down what bothers you and then think about what advice you would give to a friend that struggles with the same issue. Read a book and just forget about the world for a while."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "What do you think about it? You can also type it to me.",
+            "options": [
+              {
+                "label": "Useful, thanks!",
+                "value": {
+                  "input": {
+                    "text": "good"
+                  }
+                }
+              },
+              {
+                "label": "Useless, but thanks anyway",
+                "value": {
+                  "input": {
+                    "text": "bad"
+                  }
+                }
+              },
+              {
+                "label": "Could I have some more?",
+                "value": {
+                  "input": {
+                    "text": "more"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#Advice || @hotline:advice",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_10_1605116335591",
+      "previous_sibling": "node_6_1607006884138"
+    },
+    {
+      "type": "standard",
+      "title": "Ask for follow-ups",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thanks for telling me $username!"
+              },
+              {
+                "text": "Thanks for sharing with me $username!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "title": "Do you want to answer some questions about your mood?",
+            "options": [
+              {
+                "label": "Okay",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "No, thanks",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_7_1604688868668",
+      "conditions": "true",
+      "dialog_node": "node_10_1607003383917"
+    },
+    {
+      "type": "standard",
+      "title": "No questions",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "That's also okay."
+              },
+              {
+                "text": "That's also fine."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "values": [
+              {
+                "text": "Just let me know when you're ready to answer them."
+              },
+              {
+                "text": "Just let me know when you feel like answering them."
+              },
+              {
+                "text": "Just let me know when you want to answer them."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_5_1606993823454",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1604691523488"
+      },
+      "conditions": "#No",
+      "dialog_node": "node_10_1607105518007",
+      "previous_sibling": "node_7_1607004388155"
+    },
+    {
+      "type": "standard",
+      "title": "Say goodbye",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#General_Ending",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1604505743626",
+      "previous_sibling": "node_3_1604508017302"
+    },
+    {
+      "type": "standard",
+      "title": "Mind-Korrelatie",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The Mind-Korrelatie hotline is for help by psychological or mental issues."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "You can contact them on 0900-1450 (usual call charges) or +31-6-13863803 (WhatsApp, free)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "Via phone, they're available from Mo-Fri, from 9:00 until 18:00."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "Via chat & WhatsApp, they're available from Mo-Fri, from 9:00 until 17:30."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "You can visit their website on https://mindkorrelatie.nl/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_6_1604507179367",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1604689126888"
+      },
+      "conditions": "@hotline:mental",
+      "dialog_node": "node_1_1604584846168",
+      "previous_sibling": "node_4_1604584737387"
+    },
+    {
+      "type": "standard",
+      "title": "Detects MDD",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'm so sorry to hear that $username!"
+              },
+              {
+                "text": "I feel very sorry to hear that $username!"
+              },
+              {
+                "text": "I'm very sorry to hear that $username!"
+              },
+              {
+                "text": "I'm really sorry to hear that $username!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "values": [
+              {
+                "text": "So if I understand it correctly, you are feeling depressed."
+              },
+              {
+                "text": "If I understood it correctly, I see that you feel depressed."
+              },
+              {
+                "text": "So if I get it correctly, you're depressed."
+              },
+              {
+                "text": "So if I got it right, you're depressed."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "values": [
+              {
+                "text": "I know a hotline where you can talk with somebody about it. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "Is this what you are looking for?"
+              },
+              {
+                "text": "Is this what you are searching for?"
+              },
+              {
+                "text": "Do you want this?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#Depression",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1604587549342",
+      "previous_sibling": "node_4_1605266682599"
+    },
+    {
+      "type": "standard",
+      "title": "Joke",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay, hmm let me think. Here's one:"
+              },
+              {
+                "text": "Ehh, have you heard this one?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_6_1604507179367",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1604508114416"
+      },
+      "conditions": "@hotline:joke",
+      "dialog_node": "node_1_1604602579133",
+      "previous_sibling": "node_5_1604689126888"
+    },
+    {
+      "type": "standard",
+      "title": "GAD no",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "That's also okay. Just let me know when you need it."
+              },
+              {
+                "text": "That's also fine. Let me know in case you need it."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_9_1604587681544",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1604606411477"
+      },
+      "conditions": "#No",
+      "dialog_node": "node_1_1604603481845",
+      "previous_sibling": "node_8_1604603427638"
+    },
+    {
+      "type": "standard",
+      "title": "Another joke?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Do you want to hear another joke?"
+              },
+              {
+                "text": "Another one?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "title": "Feel free to type it in words too.",
+            "options": [
+              {
+                "label": "Gimme more :)",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "That's enough fun for today",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_4_1604508114416",
+      "conditions": "#Laughing",
+      "dialog_node": "node_1_1604687033397"
+    },
+    {
+      "type": "standard",
+      "title": "Joke yes",
+      "parent": "node_1_1604687033397",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1604508114416"
+      },
+      "conditions": "#Yes",
+      "dialog_node": "node_1_1604687188944"
+    },
+    {
+      "type": "standard",
+      "title": "Trauma yes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O my... that must have been really tough for you."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "I know a hotline where you can talk with somebody about it."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "Is this what you are looking for?"
+              },
+              {
+                "text": "Is this what you are searching for?"
+              },
+              {
+                "text": "Do you want this?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_10_1604587811080",
+      "conditions": "#Yes",
+      "dialog_node": "node_1_1605265447634"
+    },
+    {
+      "type": "standard",
+      "title": "Thank for sharing cause of stress",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thanks for telling me!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "I might have some tips that can help you 'chillax'."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "Geertje told me chillaxing means chilling and relaxing simulatenously. But I doubt if it's even a real word."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_7_1605265557970",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1605116335591"
+      },
+      "conditions": "true",
+      "dialog_node": "node_1_1605265688725"
+    },
+    {
+      "type": "standard",
+      "title": "Corona",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "It's not exactly a hotline, but it's for questions about the coronavirus COVID-19."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "You can contact them on 0800-1351 (free) or +31 20 205 1351 (usual call charges)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "They're available 7 days per week, from 8:00 until 20:00."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "You can visit their website on https://www.rijksoverheid.nl/onderwerpen/coronavirus-covid-19 "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_6_1604507179367",
+      "conditions": "@hotline:corona",
+      "dialog_node": "node_1_1605267451988",
+      "previous_sibling": "node_1_1604584846168"
+    },
+    {
+      "type": "standard",
+      "title": "Questions yes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "These questions are about how you have been feeling over the past 2 weeks."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Please note that I won't make a diagnosis. I'm just curious how you have been doing."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1607003383917",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1607004388155"
+      },
+      "conditions": "#Yes",
+      "dialog_node": "node_1_1607004242578"
+    },
+    {
+      "type": "standard",
+      "title": "Positive feedback",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No problem!"
+              },
+              {
+                "text": "Glad I could help!"
+              },
+              {
+                "text": "You're welcome!"
+              },
+              {
+                "text": "My pleasure!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1604691523488"
+      },
+      "conditions": "#General_Positive_Feedback",
+      "dialog_node": "node_2_1604507634877",
+      "previous_sibling": "node_5_1605117476069"
+    },
+    {
+      "type": "standard",
+      "title": "Detects schizophrenia",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'm really sorry to hear that $username!"
+              },
+              {
+                "text": "I feel very sorry to hear that $username!"
+              },
+              {
+                "text": "I'm so sorry to hear that $username!"
+              },
+              {
+                "text": "I'm very sorry to hear that $username!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "values": [
+              {
+                "text": "So if I got it right, you're having mental issues."
+              },
+              {
+                "text": "So if I understand it correctly, you are having mental issues."
+              },
+              {
+                "text": "So if I get it correctly, you're having mental issues."
+              },
+              {
+                "text": "If I understood it correctly, I see that you're having mental issues."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "values": [
+              {
+                "text": "I know a hotline where you can talk with somebody about it."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "Is this what you are looking for?"
+              },
+              {
+                "text": "Is this what you are searching for?"
+              },
+              {
+                "text": "Do you want this?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#Schizophrenia",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1604587939565",
+      "previous_sibling": "node_10_1604587811080"
+    },
+    {
+      "type": "standard",
+      "title": "MDD no",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "That's also okay. Just let me know when you need it."
+              },
+              {
+                "text": "That's also fine. Let me know in case you need it."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_1_1604587549342",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1604606411477"
+      },
+      "conditions": "#No",
+      "dialog_node": "node_2_1604603136925",
+      "previous_sibling": "node_7_1604603068115"
+    },
+    {
+      "type": "standard",
+      "title": "Bad mood",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'm sorry to hear you're feeling this way $username!  Tell me about it, if you'd like."
+              },
+              {
+                "text": "Poor you! What happened $username?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_7_1604601322693",
+      "conditions": "@mood:bad",
+      "dialog_node": "node_2_1604688443179",
+      "previous_sibling": "node_7_1604688868668"
+    },
+    {
+      "type": "standard",
+      "title": "Thank user for sharing",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thanks for telling me $username!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "Are you generally in a good mood or is today just your lucky day?",
+            "options": [
+              {
+                "label": "Generally good mood",
+                "value": {
+                  "input": {
+                    "text": "generally good"
+                  }
+                }
+              },
+              {
+                "label": "I'm a lucky duck today",
+                "value": {
+                  "input": {
+                    "text": "lucky duck"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_8_1604688150129",
+      "conditions": "true",
+      "dialog_node": "node_2_1604693146671"
+    },
+    {
+      "type": "standard",
+      "title": "Corona yes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I hope this helps!"
+              },
+              {
+                "text": "I hope this is helpful for you!"
+              },
+              {
+                "text": "I hope this is useful to you!"
+              },
+              {
+                "text": "I hope you find this helpful!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_4_1605266682599",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1605267451988"
+      },
+      "conditions": "#Yes",
+      "dialog_node": "node_2_1605267314694"
+    },
+    {
+      "type": "standard",
+      "title": "Same convo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thanks for the feedback! I hope you'll feel better soon."
+              },
+              {
+                "text": "Take care!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_9_1604691835930",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1604505743626"
+      },
+      "conditions": "@convo:same",
+      "dialog_node": "node_2_1607001473777",
+      "previous_sibling": "node_9_1607001306929"
+    },
+    {
+      "type": "standard",
+      "title": "Security",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'm made with Watson Assistant Lite, which is a product of IBM. I'm stored on the IBM Cloud in London."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "IBM uses log data, for continuous learning from and improving their Watson Assistant product. This data is kept for 7 days and is not shared or made public."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "In addition, all messages are encrypted. This means the order of the letters is scrambled, such that the content becomes unreadable. A key is needed to make the messages readable again."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "If you want more information about IBM's views on the GDPR, you can visit this website: https://www.ibm.com/data-responsibility/gdpr/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1604691523488"
+      },
+      "conditions": "#General_Security_Assurance || @info:security",
+      "dialog_node": "node_3_1604508017302",
+      "previous_sibling": "node_3_1604606411477"
+    },
+    {
+      "type": "standard",
+      "title": "PTSD no",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "That's also okay. Just let me know when you need it."
+              },
+              {
+                "text": "That's also fine. Let me know in case you need it."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_1_1605265447634",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1604606411477"
+      },
+      "conditions": "#No",
+      "dialog_node": "node_3_1604603667561",
+      "previous_sibling": "node_7_1604603547802"
+    },
+    {
+      "type": "standard",
+      "title": "Weather",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Well, let's talk about the weather then, shall we?"
+              },
+              {
+                "text": "Okay, hmm, let's do a little smalltalk then. "
+              },
+              {
+                "text": "Ehh, let's talk about the weather."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "title": "How's the weather?",
+            "options": [
+              {
+                "label": "Cloudy",
+                "value": {
+                  "input": {
+                    "text": "cloudy"
+                  }
+                }
+              },
+              {
+                "label": "Sunny",
+                "value": {
+                  "input": {
+                    "text": "sunny"
+                  }
+                }
+              },
+              {
+                "label": "Rainy",
+                "value": {
+                  "input": {
+                    "text": "rainy"
+                  }
+                }
+              },
+              {
+                "label": "Windy",
+                "value": {
+                  "input": {
+                    "text": "windy"
+                  }
+                }
+              },
+              {
+                "label": "Cold",
+                "value": {
+                  "input": {
+                    "text": "cold"
+                  }
+                }
+              },
+              {
+                "label": "Good",
+                "value": {
+                  "input": {
+                    "text": "good"
+                  }
+                }
+              },
+              {
+                "label": "Bad",
+                "value": {
+                  "input": {
+                    "text": "bad"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#Weather",
+      "dialog_node": "node_3_1604606411477",
+      "previous_sibling": "node_4_1604508114416"
+    },
+    {
+      "type": "standard",
+      "title": "Something else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Anything else $username?"
+              },
+              {
+                "text": "Any questions left $username?"
+              },
+              {
+                "text": "Do you want to know something more $username?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "title": "Feel free to type it in words too.",
+            "options": [
+              {
+                "label": "Yes, I want to talk about something else",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "No, I'm done",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "true",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1604691523488",
+      "previous_sibling": "Anything else"
+    },
+    {
+      "type": "standard",
+      "title": "Jokes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Why don’t scientists trust atoms? Because they make up everything!"
+              },
+              {
+                "text": "How do you drown a hipster? Throw him in the mainstream!"
+              },
+              {
+                "text": "What do you call a fake noodle? An impasta!"
+              },
+              {
+                "text": "What is an astronaut’s favourite part on a computer? The space bar!"
+              },
+              {
+                "text": "Why aren’t koalas actual bears? They don’t meet the koalafications!"
+              },
+              {
+                "text": "A book just fell on my head, I only have my shelf to blame..."
+              },
+              {
+                "text": "I used to be addicted to soap. But I'm clean now."
+              },
+              {
+                "text": "3.14% of sailors are Pi Rates."
+              },
+              {
+                "text": "When a clock is hungry... It goes back four seconds!"
+              },
+              {
+                "text": "Where do cats go after they die? To the purrrgatory."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "title": "*badum tsss*",
+            "options": [
+              {
+                "label": "Hahaha",
+                "value": {
+                  "input": {
+                    "text": "haha"
+                  }
+                }
+              },
+              {
+                "label": "Lolz",
+                "value": {
+                  "input": {
+                    "text": "haha"
+                  }
+                }
+              },
+              {
+                "label": "Very funny",
+                "value": {
+                  "input": {
+                    "text": "haha"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#General_Jokes",
+      "dialog_node": "node_4_1604508114416",
+      "previous_sibling": "node_6_1604507527145"
+    },
+    {
+      "type": "standard",
+      "title": "ARQ IVP",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The ARQ IVP hotline is for psychological help by a traumatic event."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "You can contact them on 088-3305500 (usual call charges)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "They're available 7 days per week, from 8:30 until 21:30."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "You can visit their website on https://www.ivp.nl/ivp-accent/zorgprofessionals"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_6_1604507179367",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1604689126888"
+      },
+      "conditions": "@hotline:trauma",
+      "dialog_node": "node_4_1604584737387",
+      "previous_sibling": "node_9_1604584636263"
+    },
+    {
+      "type": "standard",
+      "title": "Weather bad",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Pfew. I'm glad I only exist in this world of 0's and 1's!"
+              },
+              {
+                "text": "Ahww... I hope the weather will be better tomorrow!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_3_1604606411477",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1604505341696"
+      },
+      "conditions": "@weather:bad",
+      "dialog_node": "node_4_1604606191577",
+      "previous_sibling": "node_5_1604606159697"
+    },
+    {
+      "type": "standard",
+      "title": "Good advice",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Great to hear! I'm curious, what are you going to try?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1605116335591",
+      "conditions": "@advice:good",
+      "dialog_node": "node_4_1605119339091"
+    },
+    {
+      "type": "standard",
+      "title": "More advice",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sure! Let me think, ehh... Here are some!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "Take a look through your photo albums. Relive those moments again. Play a musical instrument. Feel the sun on your skin. Play a (video)game."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "Dance your stress away. Meet up with a friend. Water your plants. Eat a healthy snack. Light up a candle."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "Cry as much as you want to feel relieved after it. Don't feel bad or ashamed about it. If it feels good to do, just do it."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "Or you can try the 4-7-8 breathing exercise. This means breathe in for 4 seconds through your nose. Then, hold your breath for 7 seconds. Finally, breathe out for 8 seconds through your mouth. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_10_1605116335591",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1604691523488"
+      },
+      "conditions": "@advice:more",
+      "dialog_node": "node_4_1605119496942",
+      "previous_sibling": "node_8_1605119408968"
+    },
+    {
+      "type": "standard",
+      "title": "Detects Corona",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thanks for telling me!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "If I understood it correctly you want more information about the COVID-19 virus."
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "I have something that may help you."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "Is this what you are looking for?"
+              },
+              {
+                "text": "Is this what you are searching for?"
+              },
+              {
+                "text": "Do you want this?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#Corona",
+      "dialog_node": "node_4_1605266682599",
+      "previous_sibling": "node_10_1605116335591"
+    },
+    {
+      "type": "standard",
+      "title": "Follow-up3",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Got it! Another question..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Have you been feeling nervous, anxious, or on edge?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "Sometimes",
+                "value": {
+                  "input": {
+                    "text": "sometimes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1606994173017",
+      "conditions": "true",
+      "dialog_node": "node_4_1606994485887"
+    },
+    {
+      "type": "standard",
+      "title": "Worse convo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'm sorry to hear that :("
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "I'll do my best to improve!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_9_1604691835930",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1604505743626"
+      },
+      "conditions": "@convo:worse",
+      "dialog_node": "node_4_1607001602526",
+      "previous_sibling": "node_2_1607001473777"
+    },
+    {
+      "type": "standard",
+      "title": "Talk about song",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nice! When I'm feeling happy, I like to listen to happy music."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "I like \"Shiny Happy People - R.E.M.\" very much."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "Do you know it?",
+            "options": [
+              {
+                "label": "Yeah!",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "Uhh nope",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1604693146671",
+      "conditions": "true",
+      "dialog_node": "node_4_1607001911963"
+    },
+    {
+      "type": "standard",
+      "title": "Weather rainy",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sounds like you need an umbrella if you go outside!"
+              },
+              {
+                "text": "Water and robots don't mix well. I'm glad I only exist on the cloud!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_3_1604606411477",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1604505341696"
+      },
+      "conditions": "@weather:rainy",
+      "dialog_node": "node_5_1604605872034",
+      "previous_sibling": "node_6_1604605795160"
+    },
+    {
+      "type": "standard",
+      "title": "Weather cold",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Brrr! Turning up the heater sounds like a good idea!"
+              },
+              {
+                "text": "Winter is coming..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_3_1604606411477",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1604505341696"
+      },
+      "conditions": "@weather:cold",
+      "dialog_node": "node_5_1604606089406",
+      "previous_sibling": "node_8_1604605988574"
+    },
+    {
+      "type": "standard",
+      "title": "Weather good",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nice! I wish I could experience it too..."
+              },
+              {
+                "text": "Sounds lovely! I hope tomorrow the weather will also be like that."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_3_1604606411477",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1604505341696"
+      },
+      "conditions": "@weather:good",
+      "dialog_node": "node_5_1604606159697",
+      "previous_sibling": "node_5_1604606089406"
+    },
+    {
+      "type": "standard",
+      "title": "Give support",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Just know you have my full support $username! I really hope this helps you!"
+              },
+              {
+                "text": "I hope this will make you feel better $username! It's very brave of you to seek for help!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_6_1604507179367",
+      "conditions": "@hotline != \"joke\" && @hotline != \"corona\"",
+      "dialog_node": "node_5_1604689126888",
+      "previous_sibling": "node_1_1605267451988"
+    },
+    {
+      "type": "standard",
+      "title": "Say how MAX is doing",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'm fine, thanks!"
+              },
+              {
+                "text": "I'm okay :)"
+              },
+              {
+                "text": "I'm doing well. Thanks for asking!"
+              },
+              {
+                "text": "Neither good nor bad. I have not been programmed with real emotions yet."
+              },
+              {
+                "text": "Oh you know, just feeling binairy! 01000101101"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1604691523488"
+      },
+      "conditions": "#MAX_Mental_Health || @info:status",
+      "dialog_node": "node_5_1605117476069",
+      "previous_sibling": "node_6_1604507365957"
+    },
+    {
+      "type": "standard",
+      "title": "Corona no",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "That's also okay. Just let me know when you need it."
+              },
+              {
+                "text": "That's also fine. Let me know in case you need it."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_4_1605266682599",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1604606411477"
+      },
+      "conditions": "#No",
+      "dialog_node": "node_5_1605267377974",
+      "previous_sibling": "node_2_1605267314694"
+    },
+    {
+      "type": "standard",
+      "title": "Ask questions",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thank you for telling me $username!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "values": [
+              {
+                "text": "Now I'll ask you a few questions if you don't mind..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "These questions are about how you have been feeling over the past 2 weeks."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Please note that I won't make a diagnosis. I'm just curious how you have been doing."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "Are you okay with this?",
+            "options": [
+              {
+                "label": "Sure",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "Maybe another time?",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1604688443179",
+      "conditions": "true",
+      "dialog_node": "node_5_1606993823454"
+    },
+    {
+      "type": "standard",
+      "title": "Provide all hotlines",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "It seems you need a hotline $username. I will give you several hotlines you can contact by clicking on them."
+              },
+              {
+                "text": "My robot sensors tell me you could use a hotline $username. Here are several, just click on them to get more information."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "title": "Which hotline would you like to get more information on? You can also type it to me.",
+            "options": [
+              {
+                "label": "Suicide",
+                "value": {
+                  "input": {
+                    "text": "suicide"
+                  }
+                }
+              },
+              {
+                "label": "Anxiety",
+                "value": {
+                  "input": {
+                    "text": "anxiety"
+                  }
+                }
+              },
+              {
+                "label": "Post-traumatic stress",
+                "value": {
+                  "input": {
+                    "text": "trauma"
+                  }
+                }
+              },
+              {
+                "label": "Mental issues",
+                "value": {
+                  "input": {
+                    "text": "mental"
+                  }
+                }
+              },
+              {
+                "label": "Info about COVID-19",
+                "value": {
+                  "input": {
+                    "text": "corona"
+                  }
+                }
+              },
+              {
+                "label": "None, tell me a joke instead",
+                "value": {
+                  "input": {
+                    "text": "joke"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#Hotline || @hotline:hotline",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1604507179367",
+      "previous_sibling": "node_8_1604505341696"
+    },
+    {
+      "type": "standard",
+      "title": "Human or bot",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You're speaking to a chatbot, not a human. If you wish to speak to a human, I can give you some hotlines you can contact. Do you want that?"
+              },
+              {
+                "text": "You're talking to a chatbot, not a human. In case you want to talk to a human, I can provide you several hotlines you can contact. Should I give them to you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "title": "Feel free to type it in words too.",
+            "options": [
+              {
+                "label": "Yes please",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "No thanks",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#General_Human_or_Bot || @info:origin",
+      "dialog_node": "node_6_1604507365957",
+      "previous_sibling": "node_8_1604506327716"
+    },
+    {
+      "type": "standard",
+      "title": "Negative feedback",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'm sorry I messed up. Please let me try again."
+              },
+              {
+                "text": "My apologies. Please give me a second chance."
+              },
+              {
+                "text": "Pardon me. Let me start over again."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1604691523488"
+      },
+      "conditions": "#General_Negative_Feedback",
+      "dialog_node": "node_6_1604507527145",
+      "previous_sibling": "node_2_1604507634877"
+    },
+    {
+      "type": "standard",
+      "title": "Hotline no",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "That's also okay. Just let me know when you need it."
+              },
+              {
+                "text": "That's also fine. Let me know in case you need it."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "values": [
+              {
+                "text": "You wanna talk about the weather?"
+              },
+              {
+                "text": "Small talk about the weather?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "values": [
+              {
+                "text": "Or are you in for a joke?"
+              },
+              {
+                "text": "Or do you wanna hear a joke?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "title": "Feel free to type it to me in words too.",
+            "options": [
+              {
+                "label": "Weather",
+                "value": {
+                  "input": {
+                    "text": "weather"
+                  }
+                }
+              },
+              {
+                "label": "Joke",
+                "value": {
+                  "input": {
+                    "text": "joke"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1604507365957",
+      "conditions": "#No",
+      "dialog_node": "node_6_1604605285188",
+      "previous_sibling": "node_10_1604605242851"
+    },
+    {
+      "type": "standard",
+      "title": "Weather cloudy",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ah, so no sunglasses needed!"
+              },
+              {
+                "text": "I find it funny that humans tend to see all sort of shapes in the clouds..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_3_1604606411477",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1604505341696"
+      },
+      "conditions": "@weather:cloudy",
+      "dialog_node": "node_6_1604605343898"
+    },
+    {
+      "type": "standard",
+      "title": "Weather sunny",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "If I had ears I'd put on my sunglasses!"
+              },
+              {
+                "text": "Ah, if I had a nose I could almost smell the sunscreen..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_3_1604606411477",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1604505341696"
+      },
+      "conditions": "@weather:sunny",
+      "dialog_node": "node_6_1604605795160",
+      "previous_sibling": "node_6_1604605343898"
+    },
+    {
+      "type": "standard",
+      "title": "Support user",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sounds good!"
+              },
+              {
+                "text": "Sounds lovely!"
+              },
+              {
+                "text": "I hope you have some fun!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_4_1605119339091",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1604691523488"
+      },
+      "conditions": "true",
+      "dialog_node": "node_6_1605122964765"
+    },
+    {
+      "type": "standard",
+      "title": "Follow-up2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thanks for answering. I have another question."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Have you been feeling down or had little interest in doing things?",
+            "options": [
+              {
+                "label": "Yeah",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "Sometimes",
+                "value": {
+                  "input": {
+                    "text": "sometimes"
+                  }
+                }
+              },
+              {
+                "label": "Nope",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_7_1607004388155",
+      "conditions": "true",
+      "dialog_node": "node_6_1606994173017"
+    },
+    {
+      "type": "standard",
+      "title": "Question",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Of course!"
+              },
+              {
+                "text": "Sure thing!"
+              },
+              {
+                "text": "Go ahead!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1606993823454"
+      },
+      "conditions": "#Question",
+      "dialog_node": "node_6_1607006884138",
+      "previous_sibling": "node_6_1604507179367"
+    },
+    {
+      "type": "standard",
+      "title": "Ask user how they are doing",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi $username! It's nice to meet you. How are you doing?"
+              },
+              {
+                "text": "Hey there $username! It's a pleasure to meet you. How are you feeling?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "title": "Feel free to type it to me, if you prefer that.",
+            "options": [
+              {
+                "label": "Good",
+                "value": {
+                  "input": {
+                    "text": "good"
+                  }
+                }
+              },
+              {
+                "label": "Neutral",
+                "value": {
+                  "input": {
+                    "text": "neutral"
+                  }
+                }
+              },
+              {
+                "label": "Bad",
+                "value": {
+                  "input": {
+                    "text": "bad"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_8_1604505341696",
+      "context": {
+        "username": "@name.value"
+      },
+      "conditions": "@name",
+      "dialog_node": "node_7_1604601322693",
+      "previous_sibling": "response_7_1604601891405"
+    },
+    {
+      "type": "standard",
+      "title": "MDD yes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I hope this helps!"
+              },
+              {
+                "text": "I hope this is helpful for you!"
+              },
+              {
+                "text": "I hope this is useful to you!"
+              },
+              {
+                "text": "I hope you find this helpful!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_1_1604587549342",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1604584425735"
+      },
+      "conditions": "#Yes",
+      "dialog_node": "node_7_1604603068115",
+      "previous_sibling": "response_6_1604776021260"
+    },
+    {
+      "type": "standard",
+      "title": "PTSD yes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I hope this is useful to you!"
+              },
+              {
+                "text": "I hope this is helpful for you!"
+              },
+              {
+                "text": "I hope this helps!"
+              },
+              {
+                "text": "I hope you find this helpful!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_1_1605265447634",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1604584737387"
+      },
+      "conditions": "#Yes",
+      "dialog_node": "node_7_1604603547802"
+    },
+    {
+      "type": "standard",
+      "title": "Schizophrenia yes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I hope you find this helpful!"
+              },
+              {
+                "text": "I hope this is useful to you!"
+              },
+              {
+                "text": "I hope this is helpful for you!"
+              },
+              {
+                "text": "I hope this helps!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_2_1604587939565",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1604584846168"
+      },
+      "conditions": "#Yes",
+      "dialog_node": "node_7_1604603708092"
+    },
+    {
+      "type": "standard",
+      "title": "Neutral mood",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I see. It's okay to feel okay-ish!"
+              },
+              {
+                "text": "I hear ya. Nothing wrong with feeling neither good nor bad. Leave that binairy stuff to robots like me ;)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "values": [
+              {
+                "text": "What makes you feel this way?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_7_1604601322693",
+      "conditions": "@mood:neutral",
+      "dialog_node": "node_7_1604688868668",
+      "previous_sibling": "node_8_1604688150129"
+    },
+    {
+      "type": "standard",
+      "title": "Ask user if they need help",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Just ask me something and I'll try my best to help you!"
+              },
+              {
+                "text": " What can I help you with?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "title": "Feel free to type it in words too.",
+            "options": [
+              {
+                "label": "Hotline",
+                "value": {
+                  "input": {
+                    "text": "hotline"
+                  }
+                }
+              },
+              {
+                "label": "Advice",
+                "value": {
+                  "input": {
+                    "text": "advice"
+                  }
+                }
+              },
+              {
+                "label": "Joke",
+                "value": {
+                  "input": {
+                    "text": "joke"
+                  }
+                }
+              },
+              {
+                "label": "Tell me about yourself",
+                "value": {
+                  "input": {
+                    "text": "about"
+                  }
+                }
+              },
+              {
+                "label": "Is this chat secure?",
+                "value": {
+                  "input": {
+                    "text": "security"
+                  }
+                }
+              },
+              {
+                "label": "Human or bot?",
+                "value": {
+                  "input": {
+                    "text": "origin"
+                  }
+                }
+              },
+              {
+                "label": "How are you doing?",
+                "value": {
+                  "input": {
+                    "text": "status"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_8_1604505341696",
+      "conditions": "@hotline != \"anxiety\" &&      @hotline != \"trauma\" &&     @hotline != \"mental\" &&    @hotline != \"joke\" &&   @hotline != \"suicide\" &&  @hotline != \"corona\" && @hotline != \"advice\"",
+      "dialog_node": "node_7_1604864014508",
+      "previous_sibling": "node_7_1604601322693"
+    },
+    {
+      "type": "standard",
+      "title": "Trauma no",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ah, I'm relieved to hear your stress isn't caused by a traumatic expierence."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "But I'm still sorry you feel so stressed."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "What causes it?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1604587811080",
+      "conditions": "#No",
+      "dialog_node": "node_7_1605265557970",
+      "previous_sibling": "node_1_1605265447634"
+    },
+    {
+      "type": "standard",
+      "title": "Follow-up4",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Gotcha. I have one last question..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "Did you have trouble relaxing?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "Sometimes",
+                "value": {
+                  "input": {
+                    "text": "sometimes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_4_1606994485887",
+      "conditions": "true",
+      "dialog_node": "node_7_1606995035674"
+    },
+    {
+      "type": "standard",
+      "title": "Follow-up",
+      "output": {
+        "generic": [
+          {
+            "title": "Did you have trouble sleeping?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "Sometimes",
+                "value": {
+                  "input": {
+                    "text": "sometimes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1606993823454",
+      "conditions": "#Yes",
+      "dialog_node": "node_7_1607004388155"
+    },
+    {
+      "type": "standard",
+      "title": "Greet users",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#General_Greetings",
+      "dialog_node": "node_8_1604505341696",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "About",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'm a chatbot built by Geertje Peters Rit as a part of her Artificial Intelligence bachelor thesis.  I'm built with Watson Assistant Lite, which is a product of IBM."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "You can chat with me on this website. Please note that after 5 minutes of inactivity, the chat session ends."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "To lighten the mood, I can also make some jokes or talk about the weather. However, please be aware that I can't replace a real human therapist. I'm just simply a tool to make mental health more accessible. Currently, I can only speak English."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "If you're interested in mental health chatbots, you could check out Woebot. Woebot is built by Stanford-trained psychologists. With the help of cognitive behavioural therapy, Woebot has some useful skills to provide support. You can visitethe website here: https://woebothealth.com/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1604691523488"
+      },
+      "conditions": "#General_About_You || #General_Agent_Capabilities || @info:about",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_8_1604506327716",
+      "previous_sibling": "node_2_1604587939565"
+    },
+    {
+      "type": "standard",
+      "title": "GAD yes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I hope this helps!"
+              },
+              {
+                "text": "I hope this is helpful for you!"
+              },
+              {
+                "text": "I hope this is useful to you!"
+              },
+              {
+                "text": "I hope you find this helpful!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_9_1604587681544",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1604584636263"
+      },
+      "conditions": "#Yes",
+      "dialog_node": "node_8_1604603427638"
+    },
+    {
+      "type": "standard",
+      "title": "Schizophrenia no",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "That's also fine. Let me know in case you need it."
+              },
+              {
+                "text": "That's also okay. Just let me know when you need it."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_2_1604587939565",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1604606411477"
+      },
+      "conditions": "#No",
+      "dialog_node": "node_8_1604603753549",
+      "previous_sibling": "node_7_1604603708092"
+    },
+    {
+      "type": "standard",
+      "title": "Weather windy",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Watch out you don't get blown away!"
+              },
+              {
+                "text": "Isn't it refreshing, feeling the wind through your hair?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_3_1604606411477",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1604505341696"
+      },
+      "conditions": "@weather:windy",
+      "dialog_node": "node_8_1604605988574",
+      "previous_sibling": "node_5_1604605872034"
+    },
+    {
+      "type": "standard",
+      "title": "Joke no",
+      "parent": "node_1_1604687033397",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1604505341696"
+      },
+      "conditions": "#No",
+      "dialog_node": "node_8_1604687214913",
+      "previous_sibling": "node_1_1604687188944"
+    },
+    {
+      "type": "standard",
+      "title": "Good mood",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ah, I'm glad to hear $username! I'm doing fine myself too. Why do you feel good?"
+              },
+              {
+                "text": "Nice $username! I feel good too. What makes you feeling this way?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_7_1604601322693",
+      "conditions": "@mood:good",
+      "dialog_node": "node_8_1604688150129"
+    },
+    {
+      "type": "standard",
+      "title": "Continue convo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay, just ask away!"
+              },
+              {
+                "text": "Sure, just ask me anything!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Feel free to type it in words too.",
+            "options": [
+              {
+                "label": "Hotline",
+                "value": {
+                  "input": {
+                    "text": "hotline"
+                  }
+                }
+              },
+              {
+                "label": "Advice",
+                "value": {
+                  "input": {
+                    "text": "advice"
+                  }
+                }
+              },
+              {
+                "label": "Joke",
+                "value": {
+                  "input": {
+                    "text": "joke"
+                  }
+                }
+              },
+              {
+                "label": "Tell me about yourself",
+                "value": {
+                  "input": {
+                    "text": "about"
+                  }
+                }
+              },
+              {
+                "label": "Is this chat secure?",
+                "value": {
+                  "input": {
+                    "text": "security"
+                  }
+                }
+              },
+              {
+                "label": "Human or bot?",
+                "value": {
+                  "input": {
+                    "text": "origin"
+                  }
+                }
+              },
+              {
+                "label": "How are you doing?",
+                "value": {
+                  "input": {
+                    "text": "status"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_3_1604691523488",
+      "conditions": "#Yes || @convo:continue",
+      "dialog_node": "node_8_1604691801194"
+    },
+    {
+      "type": "standard",
+      "title": "Bad advice",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'm sorry if it doesn't seem useful. I haven't been programmed with more advices yet."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "In that case, maybe a joke could cheer you up..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_10_1605116335591",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1604508114416"
+      },
+      "conditions": "@advice:bad",
+      "dialog_node": "node_8_1605119408968",
+      "previous_sibling": "node_4_1605119339091"
+    },
+    {
+      "type": "standard",
+      "title": "Ask song",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "And what's your jam?"
+              },
+              {
+                "text": "And what's your song of choice?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_4_1607001911963",
+      "conditions": "true",
+      "dialog_node": "node_8_1607002334194"
+    },
+    {
+      "type": "standard",
+      "title": "ADF Stichting",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The ADF Stichting hotline is for help by anxiety, compulsory or phobia issues."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "You can contact them on 0343-753 009 (usual call charges)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "They're available 7 days per week, from 9:00 until 13:30."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "You can visit their website on https://adfstichting.nl/ "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_6_1604507179367",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1604689126888"
+      },
+      "conditions": "@hotline:anxiety",
+      "dialog_node": "node_9_1604584636263",
+      "previous_sibling": "node_10_1604584425735"
+    },
+    {
+      "type": "standard",
+      "title": "Detects GAD",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'm very sorry to hear that $username!"
+              },
+              {
+                "text": "I feel very sorry to hear that $username!"
+              },
+              {
+                "text": "I'm so sorry to hear that $username!"
+              },
+              {
+                "text": "I'm really sorry to hear that $username!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "values": [
+              {
+                "text": "If I understood it correctly, I see that you feel very anxious. "
+              },
+              {
+                "text": "So if I understand it correctly, you are feeling very anxious."
+              },
+              {
+                "text": "So if I got it right, you feel very anxious."
+              },
+              {
+                "text": "So if I get it correctly, you're very anxious."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "values": [
+              {
+                "text": "I know a hotline where you can talk with somebody about it."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "Is this what you are looking for?"
+              },
+              {
+                "text": "Is this wat you are searching for?"
+              },
+              {
+                "text": "Do you want this?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#Anxiety",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_9_1604587681544",
+      "previous_sibling": "node_1_1604587549342"
+    },
+    {
+      "type": "standard",
+      "title": "End convo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay, then we will end the conversation."
+              },
+              {
+                "text": "Well, in that case it seems like our conversation has come to an end."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "title": "How do you feel after our conversation?",
+            "options": [
+              {
+                "label": "Better",
+                "value": {
+                  "input": {
+                    "text": "better"
+                  }
+                }
+              },
+              {
+                "label": "Same",
+                "value": {
+                  "input": {
+                    "text": "same"
+                  }
+                }
+              },
+              {
+                "label": "Worse",
+                "value": {
+                  "input": {
+                    "text": "worse"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_3_1604691523488",
+      "conditions": "#No || @convo:end",
+      "dialog_node": "node_9_1604691835930",
+      "previous_sibling": "node_8_1604691801194"
+    },
+    {
+      "type": "standard",
+      "title": "Better convo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Glad I could help!"
+              },
+              {
+                "text": "That's awesome to hear!"
+              },
+              {
+                "text": "Great! See ya later, alligator :)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_9_1604691835930",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1604505743626"
+      },
+      "conditions": "@convo:better",
+      "dialog_node": "node_9_1607001306929"
+    },
+    {
+      "type": "standard",
+      "title": "Questions no",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "That's also fine! Just let me know when you change your mind."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "I have some jokes that might cheer you up..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_10_1607003383917",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1604508114416"
+      },
+      "conditions": "#No",
+      "dialog_node": "node_9_1607004646738",
+      "previous_sibling": "node_1_1607004242578"
+    },
+    {
+      "type": "standard",
+      "title": "Switch to weather",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Cool! If <? input.text ?>  makes you happy, it makes me happy too :)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "Since you seem in a good mood, let's talk about something else for a bit."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_8_1607002334194",
+      "context": {
+        "song": "<? input.text ?>"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1604606411477"
+      },
+      "conditions": "true",
+      "dialog_node": "node_9_1607104616323"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "It was nice talking to you $username. Thank you for introducing me to your song \"$song\". I will go for now, but you can always chat with me if you feel like it! By the way, this chat can be closed if you want that."
+              },
+              {
+                "text": "Thank you for talking to me $username. Take it easy for now and see ya later! By the way, I find your song \"$song\" awesome! If you want, you can close this chat, by the way."
+              },
+              {
+                "text": "Thanks for chatting $username, it was nice. Between you and me, your song \"$song\" rocks! Bye for now! By the way, you can close this chat if you'd like."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_1_1604505743626",
+      "conditions": "$song",
+      "dialog_node": "response_4_1607106184615"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hey again $username!"
+              },
+              {
+                "text": "Hi again $username!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_8_1604505341696",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1604864014508"
+      },
+      "conditions": "$username",
+      "dialog_node": "response_5_1604601914770"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'm so sorry to hear that, $username!"
+              },
+              {
+                "text": "So if I understand it correctly, you are feeling depressed."
+              },
+              {
+                "text": "I know a hotline where you can talk with somebody about it. "
+              },
+              {
+                "text": "Can I give it to you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_1_1604587549342",
+      "disabled": true,
+      "conditions": "$username",
+      "dialog_node": "response_5_1604776009413"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'm so sorry to hear that!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1604587549342",
+      "disabled": true,
+      "dialog_node": "response_6_1604776021260",
+      "previous_sibling": "response_5_1604776009413"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "It was nice talking to you $username. I will go for now, but you can always chat with me if you feel like it! By the way, this chat can be closed if you want that."
+              },
+              {
+                "text": "Thank you for talking to me $username. Take it easy for now and see ya later! If you want, you can close this chat, by the way."
+              },
+              {
+                "text": "Thanks for chatting $username, it was nice. Bye for now! By the way, you can close this chat if you'd like."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_1_1604505743626",
+      "dialog_node": "response_6_1607106170961",
+      "previous_sibling": "response_4_1607106184615"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello, I'm M.A.X. (Mental AI Access), your mental health chatbot. My purpose is to provide support and hotlines where needed!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "Small question, can you tell me your name?"
+              },
+              {
+                "text": "Tiny question, what's your name?"
+              },
+              {
+                "text": "Little question, what should I call you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_8_1604505341696",
+      "context": {},
+      "dialog_node": "response_7_1604601891405",
+      "previous_sibling": "response_5_1604601914770"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello, I'm M.A.X. (Mental AI Access), your mental health chatbot. My purpose is to provide support and hotlines where needed!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "But I can also make jokes and talk about the weather if you prefer that :)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [
+    {
+      "text": "about"
+    },
+    {
+      "text": "geertje"
+    },
+    {
+      "text": "got well soon"
+    },
+    {
+      "text": "i'm listening to music"
+    },
+    {
+      "text": "i tried max"
+    },
+    {
+      "text": "same"
+    },
+    {
+      "text": "thug life"
+    }
+  ],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": false
+  },
+  "learning_opt_out": false,
+  "name": "Mental Health",
+  "language": "en",
+  "description": "Detects mental health and provides hotlines"
+}

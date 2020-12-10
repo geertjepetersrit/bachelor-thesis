@@ -106,58 +106,58 @@
           <tr> <!-- Row 1 -->
             <td class = "cell-top-left">Depression</td>
             <td class = "cell">For people with suicidal thoughts.</td>
-            <td class = "cell">(0900-0)113</td>
+            <td class = "cell"><a href="tel:0800-0113">0800 - 0113</a> (free) or <a href="tel:113">113</a> (usual call charges)</td>
             <td class = "cell">7 days per week, 24 hours.</td>
-            <td class = "cell-top-right"><a href = "https://www.113.nl/">113 zelfmoordpreventie</a></td>
+            <td class = "cell-top-right"><a href = "https://www.113.nl/" target="_blank" rel="noopener noreferrer">113 zelfmoordpreventie</a></td>
           </tr>
           <tr> <!-- Row 2 -->
             <td class = "cell">Anxiety or other issues</td>
             <td class = "cell">Help by anxiety, compulsory or phobia issues.</td>
-            <td class = "cell">0343-753 009</td>
+            <td class = "cell"><a href="tel:0343-753009">0343-753 009</a> (usual call charges)</td>
             <td class = "cell">7 days per week, from 9:00 until 13:30.</td>
-            <td class = "cell"><a href = "https://adfstichting.nl/">ADF Stichting</a></td>
+            <td class = "cell"><a href = "https://adfstichting.nl/" target="_blank" rel="noopener noreferrer">ADF Stichting</a></td>
           </tr>
           <tr> <!-- Row 3 -->
             <td class = "cell">Traumatic events</td>
             <td class = "cell">For psychological help by a traumatic event.</td>
-            <td class = "cell">088-3305500</td>
+            <td class = "cell"><a href="tel:088-3305500">088-3305500</a> (usual call charges)</td>
             <td class = "cell">7 days per week, from 8:30 until 21:30.</td>
-            <td class = "cell"><a href = "https://www.ivp.nl/ivp-accent/zorgprofessionals">ARQ IVP</a></td>
+            <td class = "cell"><a href = "https://www.ivp.nl/ivp-accent/zorgprofessionals" target="_blank" rel="noopener noreferrer">ARQ IVP</a></td>
           </tr>
           <tr> <!-- Row 4 -->
             <td class = "cell">Schizophrenia or other issues</td>
             <td class = "cell">Help by psychological or mental issues.</td>
-            <td class = "cell">0900-1450 or 06-13863803</td>
+            <td class = "cell"><a href="tel:0900-1450">0900-1450</a> (usual call charges) or <a href="tel:+31-6-13863803">+31-6-13863803</a> (WhatsApp, free)</td>
             <td class = "cell">Phone: Mo-Fri, from 9:00 until 18:00. Chat & WhatsApp: Mo-Fri, from 9:00 until 17:30.</td>
-            <td class = "cell"><a href = "https://mindkorrelatie.nl/">Mind-Korrelatie</a></td>
+            <td class = "cell"><a href = "https://mindkorrelatie.nl/" target="_blank" rel="noopener noreferrer">Mind-Korrelatie</a></td>
           </tr>
           <tr> <!-- Row 5 -->
             <td class = "cell-bottom-left">Coronavirus COVID-19</td>
             <td class = "cell">Questions about the coronavirus COVID-19.</td>
-            <td class = "cell">0800-1351 or +31 20 205 1351</td>
+            <td class = "cell"><a href="tel:0800-1351">0800-1351</a> (free) or <a href="tel:+31-20-205-1351">+31-20-205-1351</a> (usual call charges)</td>
             <td class = "cell">7 days per week, from 8:00 until 20:00.</td>
-            <td class = "cell-bottom-right"><a href = "https://www.rijksoverheid.nl/onderwerpen/coronavirus-covid-19 ">Rijksoverheid</a></td>
+            <td class = "cell-bottom-right"><a href = "https://www.rijksoverheid.nl/onderwerpen/coronavirus-covid-19 " target="_blank" rel="noopener noreferrer">Rijksoverheid</a></td>
           </tr>
           <tr> <!-- Row 6 -->
             <td>Children that want to share their feelings</td>
             <td>For children to share everything that’s on their mind.</td>
-            <td>0800 - 0432</td>
+            <td><a href="tel:0800-0432">0800-0432</a> (free)</td>
             <td>7 days per week, from 11:00 until 21:00. Chat also available.</td>
-            <td><a href = "https://www.kindertelefoon.nl/">De Kindertelefoon</a></td>
+            <td><a href = "https://www.kindertelefoon.nl/" target="_blank" rel="noopener noreferrer">De Kindertelefoon</a></td>
           </tr>
           <tr> <!-- Row 7 -->
             <td>Elderly that want to share their feelings</td>
             <td>Elderly that have questions about COVID-19 or just want to talk because they’re lonely.</td>
-            <td>0348 - 46 66 66</td>
+            <td><a href="tel:0348-466666">0348-466666</a> (usual call charges)</td>
             <td>7 days per week, from 9:00 until 21:00.</td>
-            <td><a href = "https://www.anbo.nl/">ABNO</a></td>
+            <td><a href = "https://www.anbo.nl/" target="_blank" rel="noopener noreferrer">ABNO</a></td>
           </tr>
           <tr> <!-- Row 8 -->
             <td>People that want to share their feelings</td>
             <td>People who need a listening ear.</td>
-            <td>0900-0767</td>
+            <td><a href="tel:0900-0767">0900-0767</a> (usual call charges)</td>
             <td>7 days per week, 24 hours. Chat and email also available.</td>
-            <td><a href = "https://www.deluisterlijn.nl/">De Luisterlijn</a></td>
+            <td><a href = "https://www.deluisterlijn.nl/" target="_blank" rel="noopener noreferrer">De Luisterlijn</a></td>
           </tr>
     </table>
   </div>
