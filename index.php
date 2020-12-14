@@ -112,21 +112,21 @@
           </tr>
           <tr> <!-- Row 2 -->
             <td class = "cell">Anxiety or other issues</td>
-            <td class = "cell">Help by anxiety, compulsory or phobia issues.</td>
+            <td class = "cell">Help for anxiety, compulsory (e.g. OCD) or phobia issues.</td>
             <td class = "cell"><a href="tel:0343-753009">0343-753 009</a> (usual call charges)</td>
             <td class = "cell">7 days per week, from 9:00 until 13:30.</td>
             <td class = "cell"><a href = "https://adfstichting.nl/" target="_blank" rel="noopener noreferrer">ADF Stichting</a></td>
           </tr>
           <tr> <!-- Row 3 -->
             <td class = "cell">Traumatic events</td>
-            <td class = "cell">For psychological help by a traumatic event.</td>
+            <td class = "cell">Psychological help for a traumatic event.</td>
             <td class = "cell"><a href="tel:088-3305500">088-3305500</a> (usual call charges)</td>
             <td class = "cell">7 days per week, from 8:30 until 21:30.</td>
             <td class = "cell"><a href = "https://www.ivp.nl/ivp-accent/zorgprofessionals" target="_blank" rel="noopener noreferrer">ARQ IVP</a></td>
           </tr>
           <tr> <!-- Row 4 -->
             <td class = "cell">Schizophrenia or other issues</td>
-            <td class = "cell">Help by psychological or mental issues.</td>
+            <td class = "cell">Help for psychological or mental issues.</td>
             <td class = "cell"><a href="tel:0900-1450">0900-1450</a> (usual call charges) or <a href="tel:+31-6-13863803">+31-6-13863803</a> (WhatsApp, free)</td>
             <td class = "cell">Phone: Mo-Fri, from 9:00 until 18:00. Chat & WhatsApp: Mo-Fri, from 9:00 until 17:30.</td>
             <td class = "cell"><a href = "https://mindkorrelatie.nl/" target="_blank" rel="noopener noreferrer">Mind-Korrelatie</a></td>

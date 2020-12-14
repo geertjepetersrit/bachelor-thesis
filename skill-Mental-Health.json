@@ -415,6 +415,63 @@
       "description": "Detects questions about Corona"
     },
     {
+      "intent": "Date_Time",
+      "examples": [
+        {
+          "text": "Can you tell me the day?"
+        },
+        {
+          "text": "Can you tell me the time?"
+        },
+        {
+          "text": "Date and time?"
+        },
+        {
+          "text": "Day?"
+        },
+        {
+          "text": "Do you know what day is it?"
+        },
+        {
+          "text": "Do you know what time is it?"
+        },
+        {
+          "text": "Tell me the day of the week"
+        },
+        {
+          "text": "Tell me the time"
+        },
+        {
+          "text": "Tell me which day is today"
+        },
+        {
+          "text": "Time?"
+        },
+        {
+          "text": "What day is it?"
+        },
+        {
+          "text": "What day is today?"
+        },
+        {
+          "text": "What's the time?"
+        },
+        {
+          "text": "What time is it?"
+        },
+        {
+          "text": "Which day is it?"
+        },
+        {
+          "text": "Which day of the week?"
+        },
+        {
+          "text": "Which day of the week is it?"
+        }
+      ],
+      "description": "User asks the date or time"
+    },
+    {
       "intent": "Depression",
       "examples": [
         {
@@ -1711,6 +1768,9 @@
           "text": "How's it going?"
         },
         {
+          "text": "status"
+        },
+        {
           "text": "Wazzap?"
         },
         {
@@ -2056,6 +2116,9 @@
           "text": "Can we talk about the weather?"
         },
         {
+          "text": "cold"
+        },
+        {
           "text": "Did you see the weather forecast?"
         },
         {
@@ -2069,6 +2132,9 @@
         },
         {
           "text": "I want to talk about the weather"
+        },
+        {
+          "text": "rainy"
         },
         {
           "text": "What's the weather?"
@@ -2461,40 +2527,6 @@
       "fuzzy_match": true
     },
     {
-      "entity": "info",
-      "values": [
-        {
-          "type": "synonyms",
-          "value": "about",
-          "synonyms": [
-            "information"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "origin",
-          "synonyms": [
-            "what are you"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "security",
-          "synonyms": [
-            "safety"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "status",
-          "synonyms": [
-            "how are you"
-          ]
-        }
-      ],
-      "fuzzy_match": true
-    },
-    {
       "entity": "mood",
       "values": [
         {
@@ -2625,6 +2657,31 @@
           ]
         }
       ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-currency",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-percentage",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-time",
+      "values": [],
       "fuzzy_match": true
     },
     {
@@ -2981,7 +3038,10 @@
           }
         ]
       },
-      "parent": "node_7_1606995035674",
+      "parent": "node_10_1607963785447",
+      "context": {
+        "positive_why": "<? input.text ?>"
+      },
       "conditions": "true",
       "dialog_node": "node_10_1604692894496"
     },
@@ -3081,6 +3141,15 @@
             "selection_policy": "random"
           },
           {
+            "values": [
+              {
+                "text": "It's interesting to know what makes humans feel neutral, besides \"$neutral\". Life is often not all good or all bad."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
             "title": "Do you want to answer some questions about your mood?",
             "options": [
               {
@@ -3105,6 +3174,9 @@
         ]
       },
       "parent": "node_7_1604688868668",
+      "context": {
+        "neutral": "<? input.text ?>"
+      },
       "conditions": "true",
       "dialog_node": "node_10_1607003383917"
     },
@@ -3154,6 +3226,32 @@
     },
     {
       "type": "standard",
+      "title": "Follow-up6",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I see. And why's that?"
+              },
+              {
+                "text": "Got it. Can you tell why?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_1_1607963565623",
+      "context": {
+        "positive_inf": "<? input.text ?>"
+      },
+      "conditions": "true",
+      "dialog_node": "node_10_1607963785447"
+    },
+    {
+      "type": "standard",
       "title": "Say goodbye",
       "metadata": {
         "_customization": {
@@ -3163,7 +3261,7 @@
       "conditions": "#General_Ending",
       "digress_in": "does_not_return",
       "dialog_node": "node_1_1604505743626",
-      "previous_sibling": "node_3_1604508017302"
+      "previous_sibling": "node_3_1604606411477"
     },
     {
       "type": "standard",
@@ -3173,7 +3271,7 @@
           {
             "values": [
               {
-                "text": "The Mind-Korrelatie hotline is for help by psychological or mental issues."
+                "text": "The Mind-Korrelatie hotline provides help for psychological or mental issues."
               }
             ],
             "response_type": "text",
@@ -3368,19 +3466,7 @@
       "output": {
         "generic": [
           {
-            "values": [
-              {
-                "text": "Do you want to hear another joke?"
-              },
-              {
-                "text": "Another one?"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "random"
-          },
-          {
-            "title": "Feel free to type it in words too.",
+            "title": "Do you want to hear another joke?",
             "options": [
               {
                 "label": "Gimme more :)",
@@ -3590,6 +3676,35 @@
     },
     {
       "type": "standard",
+      "title": "Follow-up5",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thnx! And now the last question..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "Who has been a positive influence in your life?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_7_1606995035674",
+      "conditions": "true",
+      "dialog_node": "node_1_1607963565623"
+    },
+    {
+      "type": "standard",
       "title": "Positive feedback",
       "output": {
         "generic": [
@@ -3620,7 +3735,7 @@
       },
       "conditions": "#General_Positive_Feedback",
       "dialog_node": "node_2_1604507634877",
-      "previous_sibling": "node_5_1605117476069"
+      "previous_sibling": "node_8_1607714543374"
     },
     {
       "type": "standard",
@@ -3648,16 +3763,16 @@
           {
             "values": [
               {
-                "text": "So if I got it right, you're having mental issues."
+                "text": "So if I got it right, you're having psychological issues."
               },
               {
-                "text": "So if I understand it correctly, you are having mental issues."
+                "text": "So if I understand it correctly, you are having psychological issues."
               },
               {
-                "text": "So if I get it correctly, you're having mental issues."
+                "text": "So if I get it correctly, you're having psychological issues."
               },
               {
-                "text": "If I understood it correctly, I see that you're having mental issues."
+                "text": "If I understood it correctly, I see that you're having psychological issues."
               }
             ],
             "response_type": "text",
@@ -3786,6 +3901,9 @@
         ]
       },
       "parent": "node_8_1604688150129",
+      "context": {
+        "good": "<? input.text ?>"
+      },
       "conditions": "true",
       "dialog_node": "node_2_1604693146671"
     },
@@ -3900,9 +4018,10 @@
         "selector": "body",
         "dialog_node": "node_3_1604691523488"
       },
-      "conditions": "#General_Security_Assurance || @info:security",
+      "conditions": "#General_Security_Assurance",
+      "digress_in": "does_not_return",
       "dialog_node": "node_3_1604508017302",
-      "previous_sibling": "node_3_1604606411477"
+      "previous_sibling": "node_5_1605117476069"
     },
     {
       "type": "standard",
@@ -4155,7 +4274,7 @@
           {
             "values": [
               {
-                "text": "The ARQ IVP hotline is for psychological help by a traumatic event."
+                "text": "The ARQ IVP hotline provides psychological help for a traumatic event."
               }
             ],
             "response_type": "text",
@@ -4647,7 +4766,7 @@
         "selector": "body",
         "dialog_node": "node_3_1604691523488"
       },
-      "conditions": "#MAX_Mental_Health || @info:status",
+      "conditions": "#MAX_Mental_Health",
       "dialog_node": "node_5_1605117476069",
       "previous_sibling": "node_6_1604507365957"
     },
@@ -4689,10 +4808,13 @@
             "values": [
               {
                 "text": "Thank you for telling me $username!"
+              },
+              {
+                "text": "I can imagine that things like \"$bad\" can cause a bad mood..."
               }
             ],
             "response_type": "text",
-            "selection_policy": "random"
+            "selection_policy": "multiline"
           },
           {
             "values": [
@@ -4746,6 +4868,9 @@
         ]
       },
       "parent": "node_2_1604688443179",
+      "context": {
+        "bad": "<? input.text ?>"
+      },
       "conditions": "true",
       "dialog_node": "node_5_1606993823454"
     },
@@ -4794,7 +4919,7 @@
                 }
               },
               {
-                "label": "Mental issues",
+                "label": "Psychological issues",
                 "value": {
                   "input": {
                     "text": "mental"
@@ -4822,6 +4947,7 @@
           }
         ]
       },
+      "context": {},
       "conditions": "#Hotline || @hotline:hotline",
       "digress_in": "does_not_return",
       "dialog_node": "node_6_1604507179367",
@@ -4835,17 +4961,17 @@
           {
             "values": [
               {
-                "text": "You're speaking to a chatbot, not a human. If you wish to speak to a human, I can give you some hotlines you can contact. Do you want that?"
+                "text": "You're speaking to a chatbot, not a human. If you wish to speak to a human, I can give you some hotlines you can contact."
               },
               {
-                "text": "You're talking to a chatbot, not a human. In case you want to talk to a human, I can provide you several hotlines you can contact. Should I give them to you?"
+                "text": "You're talking to a chatbot, not a human. In case you want to talk to a human, I can provide you several hotlines you can contact."
               }
             ],
             "response_type": "text",
             "selection_policy": "random"
           },
           {
-            "title": "Feel free to type it in words too.",
+            "title": "Do you want that?",
             "options": [
               {
                 "label": "Yes please",
@@ -4868,7 +4994,7 @@
           }
         ]
       },
-      "conditions": "#General_Human_or_Bot || @info:origin",
+      "conditions": "#General_Human_or_Bot",
       "dialog_node": "node_6_1604507365957",
       "previous_sibling": "node_8_1604506327716"
     },
@@ -5038,13 +5164,13 @@
           {
             "values": [
               {
-                "text": "Sounds good!"
+                "text": "Hmm \"$advice\", sounds good!"
               },
               {
-                "text": "Sounds lovely!"
+                "text": "Sounds lovely, that \"$advice\"!"
               },
               {
-                "text": "I hope you have some fun!"
+                "text": "\"$advice\", huh? I hope you have some fun!"
               }
             ],
             "response_type": "text",
@@ -5053,6 +5179,9 @@
         ]
       },
       "parent": "node_4_1605119339091",
+      "context": {
+        "advice": "<? input.text ?>"
+      },
       "next_step": {
         "behavior": "jump_to",
         "selector": "body",
@@ -5160,7 +5289,7 @@
             "selection_policy": "random"
           },
           {
-            "title": "Feel free to type it to me, if you prefer that.",
+            "title": "Feel free to type it in words too.",
             "options": [
               {
                 "label": "Good",
@@ -5383,7 +5512,7 @@
                 "label": "Tell me about yourself",
                 "value": {
                   "input": {
-                    "text": "about"
+                    "text": "about you"
                   }
                 }
               },
@@ -5391,7 +5520,7 @@
                 "label": "Is this chat secure?",
                 "value": {
                   "input": {
-                    "text": "security"
+                    "text": "are you safe"
                   }
                 }
               },
@@ -5399,7 +5528,7 @@
                 "label": "Human or bot?",
                 "value": {
                   "input": {
-                    "text": "origin"
+                    "text": "are you a bot"
                   }
                 }
               },
@@ -5407,7 +5536,23 @@
                 "label": "How are you doing?",
                 "value": {
                   "input": {
-                    "text": "status"
+                    "text": "how are you"
+                  }
+                }
+              },
+              {
+                "label": "What time is it?",
+                "value": {
+                  "input": {
+                    "text": "time"
+                  }
+                }
+              },
+              {
+                "label": "End conversation",
+                "value": {
+                  "input": {
+                    "text": "stop"
                   }
                 }
               }
@@ -5468,7 +5613,7 @@
           {
             "values": [
               {
-                "text": "Gotcha. I have one last question..."
+                "text": "Gotcha. I have a new question."
               }
             ],
             "response_type": "text",
@@ -5515,6 +5660,15 @@
       "title": "Follow-up",
       "output": {
         "generic": [
+          {
+            "values": [
+              {
+                "text": "Great! Here's the first question."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
           {
             "title": "Did you have trouble sleeping?",
             "options": [
@@ -5611,7 +5765,7 @@
         "selector": "body",
         "dialog_node": "node_3_1604691523488"
       },
-      "conditions": "#General_About_You || #General_Agent_Capabilities || @info:about",
+      "conditions": "#General_About_You || #General_Agent_Capabilities",
       "digress_in": "does_not_return",
       "dialog_node": "node_8_1604506327716",
       "previous_sibling": "node_2_1604587939565"
@@ -5732,7 +5886,7 @@
                 "text": "Ah, I'm glad to hear $username! I'm doing fine myself too. Why do you feel good?"
               },
               {
-                "text": "Nice $username! I feel good too. What makes you feeling this way?"
+                "text": "Nice $username! I feel good too. What makes you feel this way?"
               }
             ],
             "response_type": "text",
@@ -5792,7 +5946,7 @@
                 "label": "Tell me about yourself",
                 "value": {
                   "input": {
-                    "text": "about"
+                    "text": "about you"
                   }
                 }
               },
@@ -5800,7 +5954,7 @@
                 "label": "Is this chat secure?",
                 "value": {
                   "input": {
-                    "text": "security"
+                    "text": "are you safe"
                   }
                 }
               },
@@ -5808,7 +5962,7 @@
                 "label": "Human or bot?",
                 "value": {
                   "input": {
-                    "text": "origin"
+                    "text": "are you a bot"
                   }
                 }
               },
@@ -5816,7 +5970,15 @@
                 "label": "How are you doing?",
                 "value": {
                   "input": {
-                    "text": "status"
+                    "text": "how are you"
+                  }
+                }
+              },
+              {
+                "label": "What time is it?",
+                "value": {
+                  "input": {
+                    "text": "time"
                   }
                 }
               }
@@ -5889,13 +6051,43 @@
     },
     {
       "type": "standard",
+      "title": "Say date and time",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Today it's $date and the time is $time."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "context": {
+        "date": "<? now().reformatDateTime('EEEE, MMMM d') ?>",
+        "time": "<? now().reformatDateTime('h:mm a') ?>"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1604505341696"
+      },
+      "conditions": "#Date_Time",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_8_1607714543374",
+      "previous_sibling": "node_3_1604508017302"
+    },
+    {
+      "type": "standard",
       "title": "ADF Stichting",
       "output": {
         "generic": [
           {
             "values": [
               {
-                "text": "The ADF Stichting hotline is for help by anxiety, compulsory or phobia issues."
+                "text": "The ADF Stichting hotline provides help for anxiety, compulsory (e.g. OCD) or phobia issues."
               }
             ],
             "response_type": "text",
@@ -6007,6 +6199,7 @@
           }
         ]
       },
+      "context": {},
       "conditions": "#Anxiety",
       "digress_in": "does_not_return",
       "dialog_node": "node_9_1604587681544",
@@ -6140,7 +6333,7 @@
           {
             "values": [
               {
-                "text": "Cool! If <? input.text ?>  makes you happy, it makes me happy too :)"
+                "text": "Cool! If \"<? input.text ?>\"  makes you happy, it makes me happy too :)"
               }
             ],
             "response_type": "text",
@@ -6176,13 +6369,69 @@
           {
             "values": [
               {
-                "text": "It was nice talking to you $username. Thank you for introducing me to your song \"$song\". I will go for now, but you can always chat with me if you feel like it! By the way, this chat can be closed if you want that."
+                "text": "It was nice talking to you $username. I hope the person you mentioned, \"$positive_inf\", keeps inspiring you with their traits of \"$positive_why\"."
               },
               {
-                "text": "Thank you for talking to me $username. Take it easy for now and see ya later! By the way, I find your song \"$song\" awesome! If you want, you can close this chat, by the way."
+                "text": "Thank you for talking to me $username. I hope the person you mentioned, \"$positive_inf\", keeps inspiring you with their traits of \"$positive_why\"."
               },
               {
-                "text": "Thanks for chatting $username, it was nice. Between you and me, your song \"$song\" rocks! Bye for now! By the way, you can close this chat if you'd like."
+                "text": "Thanks for chatting $username, it was nice. I hope the person you mentioned, \"$positive_inf\", keeps inspiring you with their traits of \"$positive_why\"."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "values": [
+              {
+                "text": "I will go for now, but you can always chat with me if you feel like it! By the way, this chat can be closed if you want that."
+              },
+              {
+                "text": "Take it easy for now and see ya later! By the way, I find your song \"$song\" awesome! If you want, you can close this chat, by the way."
+              },
+              {
+                "text": "Bye for now! By the way, you can close this chat if you'd like."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1604505743626",
+      "conditions": "$positive_inf && $positive_why",
+      "dialog_node": "response_1_1607963970960",
+      "previous_sibling": "response_4_1607106184615"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "It was nice talking to you $username. I hope more things like \"$good\" happen that will make you happy :) "
+              },
+              {
+                "text": "Thank you for talking to me $username. I hope more things like \"$good\" happen that will make you happy :) "
+              },
+              {
+                "text": "Thanks for chatting $username, it was nice. I hope more things like \"$good\" happen that will make you happy :) "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "values": [
+              {
+                "text": "Thank you for introducing me to your song \"$song\". I will go for now, but you can always chat with me if you feel like it! By the way, this chat can be closed if you want that."
+              },
+              {
+                "text": "Take it easy for now and see ya later! By the way, I find your song \"$song\" awesome! If you want, you can close this chat, by the way."
+              },
+              {
+                "text": "Between you and me, your song \"$song\" rocks! Bye for now! By the way, you can close this chat if you'd like."
               }
             ],
             "response_type": "text",
@@ -6191,7 +6440,7 @@
         ]
       },
       "parent": "node_1_1604505743626",
-      "conditions": "$song",
+      "conditions": "$good && $song",
       "dialog_node": "response_4_1607106184615"
     },
     {
@@ -6293,7 +6542,7 @@
       },
       "parent": "node_1_1604505743626",
       "dialog_node": "response_6_1607106170961",
-      "previous_sibling": "response_4_1607106184615"
+      "previous_sibling": "response_1_1607963970960"
     },
     {
       "type": "response_condition",
@@ -6362,6 +6611,12 @@
   "counterexamples": [
     {
       "text": "about"
+    },
+    {
+      "text": "bad"
+    },
+    {
+      "text": "everything"
     },
     {
       "text": "geertje"
