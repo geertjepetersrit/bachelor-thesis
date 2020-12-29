@@ -10,8 +10,9 @@
 
     <!-- Disclaimer-->
       <p class="center p-disclaimer">
-          <strong>DISCLAIMER: </strong>Please note that the purpose of M.A.X. is to assist people to seek help, instead of providing a cure.
-          In other words, M.A.X. is simply an additional tool of mental health care and not a replacement. Use at your own risk.
+          <strong>DISCLAIMER: </strong>Please note that the purpose of M.A.X. is assisting people to seek help, instead of providing a cure.
+            In other words, M.A.X. is simply an additional tool for mental health care and not a replacement. Use at your own risk.
+            M.A.X. is neither responsible nor liable in any way for any harm caused.
       </p>
 
     <!-- We want to hide this element initially, because web chat isn't ready yet. -->

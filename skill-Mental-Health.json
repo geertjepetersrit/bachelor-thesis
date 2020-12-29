@@ -3252,6 +3252,34 @@
     },
     {
       "type": "standard",
+      "title": "Begin convo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Glad I could help!"
+              },
+              {
+                "text": "No problem!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1605267451988",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1604505341696"
+      },
+      "conditions": "true",
+      "dialog_node": "node_10_1608740153144"
+    },
+    {
+      "type": "standard",
       "title": "Say goodbye",
       "metadata": {
         "_customization": {
@@ -3969,6 +3997,34 @@
       "conditions": "@convo:same",
       "dialog_node": "node_2_1607001473777",
       "previous_sibling": "node_9_1607001306929"
+    },
+    {
+      "type": "standard",
+      "title": "Begin convo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Glad I could help!"
+              },
+              {
+                "text": "No problem!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_5_1604689126888",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1604505341696"
+      },
+      "conditions": "true",
+      "dialog_node": "node_2_1608739638643"
     },
     {
       "type": "standard",
